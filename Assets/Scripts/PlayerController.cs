@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public float walkSpeed = 5f;
     Vector2 moveInput;
 
-    public bool isMoving { get; private set; }
+    public bool IsMoving { get; private set; }
 
     Rigidbody2D rb;
 
@@ -39,6 +39,6 @@ public class PlayerController : MonoBehaviour
     public void onMove(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
-        isMoving = moveInput != Vector2.zero;
+        IsMoving = moveInput != Vector2.zero;
     }
 }
