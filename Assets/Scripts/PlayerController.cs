@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(Rigidbody2D), typeof(TouchinDirections))]
+[RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections))]
 public class PlayerController : MonoBehaviour
 {
     public float walkSpeed = 4f;
     public float runSpeed = 6f;
     public float jumpImpulse = 6f;
     Vector2 moveInput;
-    TouchinDirections touchinDirections;
+    TouchingDirections touchingDirections;
 
     public float CurrentMoveSpeed
     {
         get
         {
-            if (IsMoving && !touchinDirections.isOnWall)
+            if (IsMoving && !touchingDirections.IsOnWall)
             {
                 if (IsRunning)
                 {
@@ -90,7 +90,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        touchinDirections = GetComponent<TouchinDirections>();
+        touchingDirections = GetComponent<TouchingDirections>();
     }
 
     private void FixedUpdate()
@@ -132,7 +132,7 @@ public class PlayerController : MonoBehaviour
 
     public void onJump(InputAction.CallbackContext context)
     {
-        if (context.started && touchinDirections.IsGrounded)
+        if (context.started && touchingDirections.IsGrounded)
         {
             animator.SetTrigger(AnimationStrings.jump);
             rb.velocity = new Vector2(rb.velocity.x, jumpImpulse);

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TouchinDirections : MonoBehaviour
+public class TouchingDirections : MonoBehaviour
 {
     public ContactFilter2D castFilter;
     public float groundDistance = 0.05f;
