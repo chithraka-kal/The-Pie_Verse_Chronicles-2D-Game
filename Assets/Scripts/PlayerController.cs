@@ -8,16 +8,17 @@ public class PlayerController : MonoBehaviour
 {
     public float walkSpeed = 4f;
     public float runSpeed = 6f;
+    public float airWalkSpeed = 3f;
     public float jumpImpulse = 6f;
     Vector2 moveInput;
     TouchingDirections touchingDirections;
 
-    public float CurrentMoveSpeed
-    {
-        get
-        {
-            if (IsMoving && !touchingDirections.IsOnWall)
+    public float CurrentMoveSpeed { get
+        {   
+            if (touchingDirections.IsGrounded)
             {
+                if (IsMoving && !touchingDirections.IsOnWall)
+                {
                 if (IsRunning)
                 {
                     return runSpeed;
@@ -29,6 +30,12 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
+            //Air state checks
+            return airWalkSpeed;
+            }
+        }
+        else
+        {
                 // Idle speed is zero
                 return 0;
             }
