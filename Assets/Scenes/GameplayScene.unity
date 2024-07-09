@@ -132,7 +132,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1577730041194690221, guid: e2dd34afd5087f440af4a546e6718670, type: 3}
   m_PrefabInstance: {fileID: 4631653939608709396}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1031804045}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e836063df9ff11541b2fedb9621feb6c, type: 3}
@@ -2092,7 +2092,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 3.802514
+  orthographic size: 4.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2117,7 +2117,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.94, y: -0.6, z: -100}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -6629,6 +6629,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1031804045 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4631653939703750963, guid: e2dd34afd5087f440af4a546e6718670, type: 3}
+  m_PrefabInstance: {fileID: 4631653939608709396}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1031804051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031804045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a850cdac9fa2f42478b79300475c5715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  castFilter:
+    useTriggers: 0
+    useLayerMask: 0
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  groundDistance: 0.15
+  _isGrounded: 0
 --- !u!1 &1047318215
 GameObject:
   m_ObjectHideFlags: 0
@@ -6901,7 +6934,7 @@ MonoBehaviour:
   m_Follow: {fileID: 108972073}
   m_Lens:
     FieldOfView: 34
-    OrthographicSize: 3.802514
+    OrthographicSize: 4.8
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -7174,8 +7207,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1577730041194690221, guid: e2dd34afd5087f440af4a546e6718670, type: 3}
+      propertyPath: runSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1577730041194690221, guid: e2dd34afd5087f440af4a546e6718670, type: 3}
       propertyPath: _isMoving
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1577730041194690221, guid: e2dd34afd5087f440af4a546e6718670, type: 3}
+      propertyPath: walkSpeed
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2945525296133981889, guid: e2dd34afd5087f440af4a546e6718670, type: 3}
       propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.size
@@ -7238,6 +7279,14 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4631653939703750973, guid: e2dd34afd5087f440af4a546e6718670, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631653939703750973, guid: e2dd34afd5087f440af4a546e6718670, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631653939703750973, guid: e2dd34afd5087f440af4a546e6718670, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.94
       objectReference: {fileID: 0}
@@ -7277,5 +7326,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7662517617989177633, guid: e2dd34afd5087f440af4a546e6718670, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e2dd34afd5087f440af4a546e6718670, type: 3}
