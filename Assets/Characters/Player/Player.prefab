@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2945525296133981889}
   - component: {fileID: 242162115210476757}
   - component: {fileID: 3089731786572053569}
-  - component: {fileID: 7662517617989177633}
+  - component: {fileID: 2844359405760272366}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -125,6 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 4
   runSpeed: 6
+  airWalkSpeed: 3
   jumpImpulse: 10
   _isMoving: 0
   _isRunning: 0
@@ -292,7 +293,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.012804121, y: -0.27509946}
   m_Size: {x: 0.57272226, y: 1.6420504}
   m_Direction: 0
---- !u!114 &7662517617989177633
+--- !u!114 &2844359405760272366
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -301,7 +302,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4631653939703750963}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a850cdac9fa2f42478b79300475c5715, type: 3}
+  m_Script: {fileID: 11500000, guid: 5eef95b4989e99d4887a4d43f5ec67b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   castFilter:
@@ -319,4 +320,8 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   groundDistance: 0.05
+  wallDistance: 0.2
+  ceilingDistance: 0.05
   _isGrounded: 0
+  _isOnWall: 0
+  _isOnCeiling: 0
