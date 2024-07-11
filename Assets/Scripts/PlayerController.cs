@@ -108,6 +108,18 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public bool LockVelocity
+    {
+        get
+        {
+           return animator.GetBool(AnimationStrings.lockVelocity);
+        }
+        set
+        {
+            animator.SetBool(AnimationStrings.lockVelocity, value);
+        }
+    }
+
     Rigidbody2D rb;
     Animator animator;
 
@@ -120,9 +132,12 @@ public class PlayerController : MonoBehaviour
     }
 
     private void FixedUpdate()
-    {
-        rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
+    {   
+        if(!LockVelocity)
+            rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
+
         animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
+
     }
 
     public void onMove(InputAction.CallbackContext context)
@@ -179,6 +194,12 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetTrigger(AnimationStrings.attackTrigger);
         }
+    }
+
+    public void OnHit(int damage, Vector2 knockback)
+    {   
+        LockVelocity = true;
+        rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
     }
 
 }

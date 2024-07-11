@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1577905973800077580}
   - component: {fileID: 8848842066622255077}
   - component: {fileID: 711769252383725662}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: SwordAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60,7 +60,8 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 2.93727, y: 1.209805}
       - {x: 1.5272648, y: 0.82041657}
-      - {x: 2.2072902, y: 0.1617564}
+      - {x: 1.2377794, y: 0.47450185}
+      - {x: 1.6116776, y: -0.08740628}
       - {x: 2.101831, y: -0.18800604}
       - {x: 1.9823258, y: -0.61232483}
       - {x: 3.5119424, y: -1.0581605}
@@ -77,6 +78,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 899849e63b9011540b6a65a2681e7f4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackDamage: 10
+  knockback: {x: 5, y: 2}
 --- !u!1 &7680101654428992537
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,6 +290,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb1fa40060d9854a81a0d7f6e600883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageableHit:
+    m_PersistentCalls:
+      m_Calls: []
   _maxHealth: 100
   _health: 100
   _isAlive: 1
