@@ -6,6 +6,7 @@ using UnityEngine;
 public class Knight : MonoBehaviour
 {   
     public float walkSpeed = 3f;
+    public float walkStopRate = 0.05f;
     public DetectionZone attackZone;
     Rigidbody2D rb;
     TouchingDirections touchingDirections;
@@ -78,10 +79,13 @@ public class Knight : MonoBehaviour
             FlipDirection();
         }
         if(CanMove)
+        {
         rb.velocity = new Vector2(walkSpeed * walkDirectionVector.x, rb.velocity.y);
+        }
         else
-            rb.velocity = new Vector2(0, rb.velocity.y);
-
+        {
+            rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, walkStopRate), rb.velocity.y);
+        }
     }
 
     private void FlipDirection()

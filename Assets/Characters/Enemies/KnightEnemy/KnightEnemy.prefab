@@ -140,6 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 2
+  walkStopRate: 0.05
   attackZone: {fileID: 6173743824420502182}
   _hasTarget: 0
 --- !u!114 &4266657376891857641
