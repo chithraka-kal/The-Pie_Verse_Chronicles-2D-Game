@@ -66,6 +66,19 @@ public class Damageable : MonoBehaviour
         }
     }
 
+    // velocity should not be changed while this is true but needs to be respected by other physics components like player controller
+    public bool LockVelocity
+    {
+        get
+        {
+           return animator.GetBool(AnimationStrings.lockVelocity);
+        }
+        set
+        {
+            animator.SetBool(AnimationStrings.lockVelocity, value);
+        }
+    }    
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -97,6 +110,7 @@ public class Damageable : MonoBehaviour
 
             //Notify other subscribed components that the damageable was hit to handle the knockback and such
             animator.SetTrigger(AnimationStrings.hitTrigger);
+            LockVelocity = true;
             damageableHit?.Invoke(damage, knockback);
             return true;
         }

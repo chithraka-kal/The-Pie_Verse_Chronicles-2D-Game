@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4877006051143434976}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.92, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -58,14 +58,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 2.93727, y: 1.209805}
-      - {x: 1.5272648, y: 0.82041657}
-      - {x: 1.2377794, y: 0.47450185}
-      - {x: 1.6116776, y: -0.08740628}
-      - {x: 2.101831, y: -0.18800604}
-      - {x: 1.9823258, y: -0.61232483}
-      - {x: 3.5119424, y: -1.0581605}
-      - {x: 3.6391826, y: 0.28279144}
+    - - {x: 0.43637252, y: 0.8042541}
+      - {x: -0.5004904, y: 1.4963348}
+      - {x: -1.4523757, y: 0.812461}
+      - {x: -1.294771, y: 0.020740628}
+      - {x: -0.7640624, y: -0.07985914}
+      - {x: -0.8970864, y: -0.6258434}
+      - {x: 0.524384, y: -1.0176055}
+      - {x: 0.7327337, y: 0.28279144}
 --- !u!114 &711769252383725662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,7 +79,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 10
-  knockback: {x: 5, y: 2}
+  knockback: {x: 2, y: 2}
 --- !u!1 &7680101654428992537
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +292,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageableHit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 736314664501122099}
+        m_TargetAssemblyTypeName: Knight, Assembly-CSharp
+        m_MethodName: OnHit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _maxHealth: 100
   _health: 100
   _isAlive: 1

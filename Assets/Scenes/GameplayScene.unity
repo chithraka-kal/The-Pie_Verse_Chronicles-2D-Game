@@ -4445,7 +4445,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 15
-      m_TileSpriteIndex: 15
+      m_TileSpriteIndex: 23
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4925,7 +4925,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 10
-      m_TileSpriteIndex: 12
+      m_TileSpriteIndex: 15
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5945,7 +5945,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 3
-      m_TileSpriteIndex: 3
+      m_TileSpriteIndex: 12
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -6045,7 +6045,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -6499,15 +6499,17 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: dbae47fbcf6bd0a40b8f4e452dee7067, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 5cad20a5507582346a6da1dd28cf0e0a, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 29
     m_Data: {fileID: 725508755, guid: 0077d943b529df24592873be3307658c, type: 3}
   - m_RefCount: 8
     m_Data: {fileID: 617519259, guid: 0077d943b529df24592873be3307658c, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 1311530705, guid: 0077d943b529df24592873be3307658c, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1024925842, guid: 0077d943b529df24592873be3307658c, type: 3}
   - m_RefCount: 14
     m_Data: {fileID: 1694118016, guid: 0077d943b529df24592873be3307658c, type: 3}
   - m_RefCount: 2
@@ -6525,13 +6527,13 @@ Tilemap:
   - m_RefCount: 10
     m_Data: {fileID: 989346966, guid: 0077d943b529df24592873be3307658c, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -1734530449, guid: 0077d943b529df24592873be3307658c, type: 3}
+    m_Data: {fileID: -1024925842, guid: 0077d943b529df24592873be3307658c, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: -1318271116, guid: 0077d943b529df24592873be3307658c, type: 3}
   - m_RefCount: 9
     m_Data: {fileID: 1791242723, guid: 0077d943b529df24592873be3307658c, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -1883206445, guid: 0077d943b529df24592873be3307658c, type: 3}
+    m_Data: {fileID: -1734530449, guid: 0077d943b529df24592873be3307658c, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: -1713863333, guid: 0077d943b529df24592873be3307658c, type: 3}
   - m_RefCount: 15
@@ -6546,6 +6548,8 @@ Tilemap:
     m_Data: {fileID: -1844290448, guid: 0077d943b529df24592873be3307658c, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 673465666, guid: 0077d943b529df24592873be3307658c, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -1883206445, guid: 0077d943b529df24592873be3307658c, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 401
     m_Data:
@@ -7435,6 +7439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: KnightEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 8844387482111519992, guid: b3f84d74b68874446bcb6dcb061b7fbf, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3f84d74b68874446bcb6dcb061b7fbf, type: 3}
 --- !u!1001 &4631653939608709396
@@ -7551,6 +7559,10 @@ PrefabInstance:
     - target: {fileID: 2945525296133981889, guid: e2dd34afd5087f440af4a546e6718670, type: 3}
       propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4046061946862365451, guid: e2dd34afd5087f440af4a546e6718670, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4631653939703750963, guid: e2dd34afd5087f440af4a546e6718670, type: 3}
       propertyPath: m_Name
