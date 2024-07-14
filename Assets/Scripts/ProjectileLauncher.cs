@@ -13,6 +13,8 @@ public class ProjectileLauncher : MonoBehaviour
        Vector3 origScale = projectile.transform.localScale;
 
         //flip the projectile facing direction based on character facing direction
-       projectile.transform.localScale = new Vector3(origScale.x * transform.localScale.x > 0 ? 1 : -1, origScale.y, origScale.z);
+       projectile.transform.localScale = new Vector3(origScale.x * transform.localScale.x > 0 ? 1 : -1, 
+       origScale.y, 
+       origScale.z);
     }
 }

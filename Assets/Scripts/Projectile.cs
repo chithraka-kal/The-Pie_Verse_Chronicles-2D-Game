@@ -17,7 +17,8 @@ public class Projectile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb.velocity = new Vector2(moveSpeed.x * transform.localScale.x, moveSpeed.y);       
+        rb.velocity = new Vector2(moveSpeed.x * transform.localScale.x, moveSpeed.y);
+        Destroy(gameObject, 4f);      
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -31,8 +32,8 @@ public class Projectile : MonoBehaviour
             // Hit the target
             bool gotHit = damageable.Hit(damage, deliveredKnockback);
             if(gotHit)
-            Debug.Log(collision.name + " was hit for " + damage);
-            Destroy(gameObject);
+                Debug.Log(collision.name + " was hit for " + damage);
+                Destroy(gameObject);
         }
     }
 }
