@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
                     }
                     else
                     {
-                        //Air state checks
+                        // Air state checks
                         return airWalkSpeed;
                     }
                 }
@@ -44,10 +44,9 @@ public class PlayerController : MonoBehaviour
                 }
             } else
                 {
-                    //Movement locked
+                    // Movement locked
                     return 0;
                 }
-            
         }
     }
 
@@ -109,10 +108,8 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
     Rigidbody2D rb;
     Animator animator;
-
 
     private void Awake()
     {
@@ -128,7 +125,6 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
 
         animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
-
     }
 
     public void onMove(InputAction.CallbackContext context)
@@ -137,8 +133,8 @@ public class PlayerController : MonoBehaviour
 
         if(IsAlive)
         {
-        IsMoving = moveInput != Vector2.zero;
-        SetFacingDirection(moveInput);
+            IsMoving = moveInput != Vector2.zero;
+            SetFacingDirection(moveInput);
         }
         else
         {
@@ -192,12 +188,12 @@ public class PlayerController : MonoBehaviour
         if (context.started)
         {
             animator.SetTrigger(AnimationStrings.rangedAttackTrigger);
+            Debug.Log("Ranged attack triggered");
         }
-    }    
+    }
 
     public void OnHit(int damage, Vector2 knockback)
     {   
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
     }
-
 }
