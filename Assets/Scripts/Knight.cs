@@ -102,7 +102,7 @@ public class Knight : MonoBehaviour
 
         if(!damageable.LockVelocity)
         {
-            if(CanMove)
+            if(CanMove && touchingDirections.IsGrounded)
             {
                 //accelerate towards max speed
                 rb.velocity = new Vector2(Mathf.Clamp(rb.velocity.x + (walkAcceleration * walkDirectionVector.x * Time.fixedDeltaTime), -maxSpeed, maxSpeed), rb.velocity.y);
