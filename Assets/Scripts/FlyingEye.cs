@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FlyingEye : MonoBehaviour
 {
+    public float flightSpeed = 3f;
     public DetectionZone biteDetectionZone;
     Animator animator;
     Rigidbody2D rb;
