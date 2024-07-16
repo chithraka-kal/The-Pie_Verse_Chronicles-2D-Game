@@ -7,6 +7,7 @@ public class FlyingEye : MonoBehaviour
     public float flightSpeed = 2f;
     public float waypointReachedDistance = 0.1f;    
     public DetectionZone biteDetectionZone;
+    public Collider2D deathCollider;
     public List<Transform> waypoints;
 
     Animator animator;
@@ -46,6 +47,11 @@ public class FlyingEye : MonoBehaviour
     private void Start()
     {
        nextWaypoint = waypoints[waypointNum]; 
+    }
+
+    private void OnEnable()
+    {
+        damageable.damageableDeath.AddListener (OnDeath);
     }
 
     // Update is called once per frame
@@ -115,5 +121,13 @@ public class FlyingEye : MonoBehaviour
                 transform.localScale = new Vector3(-1 * locScale.x, locScale.y, locScale.z);
             }
         }
+    }
+
+    public void OnDeath()
+    {
+        //dead eye falls to the ground
+        rb.gravityScale = 2f;
+        rb.velocity = new Vector3(0, rb.velocity.y);
+        deathCollider.enabled = true;
     }
 }
