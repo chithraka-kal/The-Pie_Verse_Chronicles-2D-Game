@@ -76,6 +76,7 @@ public class FlyingEye : MonoBehaviour
         //Check reached the waypoint already
         float distance = Vector2.Distance(nextWaypoint.position, transform.position);
         rb.velocity = directionToWaypoint * flightSpeed;
+        UpdateDirection();
 
         //see if need to switch waypoints
         if(distance <= waypointReachedDistance)
@@ -90,6 +91,29 @@ public class FlyingEye : MonoBehaviour
             }
 
             nextWaypoint = waypoints[waypointNum];
+        }
+    }
+
+    private void UpdateDirection()
+    {
+        Vector3 locScale = transform.localScale;
+
+        if(transform.localScale.x > 0)
+        {
+            //Facing right
+            if(rb.velocity.x < 0)
+            {
+                //flip
+                transform.localScale = new Vector3(-1 * locScale.x, locScale.y, locScale.z);
+            }
+        }
+        else{
+            //Facing left
+            if(rb.velocity.x > 0)
+            {
+                //flip
+                transform.localScale = new Vector3(-1 * locScale.x, locScale.y, locScale.z);
+            }
         }
     }
 }
