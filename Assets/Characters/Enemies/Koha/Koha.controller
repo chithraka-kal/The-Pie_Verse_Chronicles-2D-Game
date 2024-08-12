@@ -13,8 +13,11 @@ AnimatorStateMachine:
     m_State: {fileID: 205359460456419000}
     m_Position: {x: 280, y: 200, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 4550086806979601631}
-    m_Position: {x: 550, y: 100, z: 0}
+    m_State: {fileID: 330480915559852498}
+    m_Position: {x: 620, y: -10, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 7076928710767227141}
+    m_Position: {x: 560, y: 100, z: 0}
   m_ChildStateMachines:
   - serializedVersion: 1
     m_StateMachine: {fileID: -7306013125702642613}
@@ -24,7 +27,7 @@ AnimatorStateMachine:
     m_Position: {x: 270, y: 130, z: 0}
   m_AnyStateTransitions:
   - {fileID: -7444458156796676323}
-  - {fileID: 5476684416858685812}
+  - {fileID: 7810843505407608778}
   m_EntryTransitions: []
   m_StateMachineTransitions:
   - first: {fileID: 7972668235053749028}
@@ -38,7 +41,7 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 9193379677835707369}
+  m_DefaultState: {fileID: 4054607044028210313}
 --- !u!1101 &-7444458156796676323
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -99,14 +102,11 @@ AnimatorStateMachine:
   m_Name: Attack
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: 6211290563940823326}
-    m_Position: {x: 370, y: 120, z: 0}
+    m_State: {fileID: 8318214513220381931}
+    m_Position: {x: 380, y: 120, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 3102103983541802741}
-    m_Position: {x: 590, y: -60, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -3712865352964285420}
-    m_Position: {x: 230, y: -50, z: 0}
+    m_State: {fileID: 4003637932810512670}
+    m_Position: {x: 630, y: -50, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -117,15 +117,15 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 310, y: 40, z: 0}
-  m_DefaultState: {fileID: 6211290563940823326}
---- !u!1102 &-3712865352964285420
+  m_DefaultState: {fileID: 8318214513220381931}
+--- !u!1102 &-2271796949353919575
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: koha_attack3
+  m_Name: Smouse_idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -138,31 +138,12 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a195bbc6dae074e4a89f3af4a9f1e46b, type: 2}
+  m_Motion: {fileID: 7400000, guid: 6cc4056502c68f041b2a4a62ac0a3308, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!114 &-2332360006878551940
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6579f8e7dcbfb0b409101805515528ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  floatName: attackCooldown
-  updateOnStateEnter: 0
-  updateOnStateExit: 1
-  updateOnStateMachineEnter: 0
-  updateOnStateMachineExit: 0
-  valueOnEnter: 0
-  valueOnExit: 0.5
 --- !u!114 &-2244015855090394565
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -180,6 +161,50 @@ MonoBehaviour:
   updateOnStateMachine: 0
   valueOnEnter: 0
   valueOnExit: 1
+--- !u!1101 &-1844204124762845276
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions: []
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 0}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 1
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &-1737356567291536856
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions: []
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 0}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 1
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.6875
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -302,14 +327,14 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &387980950823151262
+--- !u!1102 &330480915559852498
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: koha_run
+  m_Name: test
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -322,7 +347,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: b4cf2f59d64dcf949aca4b71d975af72, type: 2}
+  m_Motion: {fileID: 7400000, guid: d968d06adc21cde4f814c20835382b35, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -345,51 +370,6 @@ MonoBehaviour:
   updateOnStateMachine: 0
   valueOnEnter: 1
   valueOnExit: 0
---- !u!1101 &1120666996872809727
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: hasTarget
-    m_EventTreshold: 0
-  - m_ConditionMode: 4
-    m_ConditionEvent: attackCooldown
-    m_EventTreshold: 0.00001
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 0}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 1
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 0.6875
-  m_HasExitTime: 0
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
---- !u!114 &1188127635035899456
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b86d01a573aca364ba5211a0af2e4ab3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boolName: canMove
-  updateOnState: 1
-  updateOnStateMachine: 0
-  valueOnEnter: 0
-  valueOnExit: 1
 --- !u!1109 &1522611114215384778
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -404,28 +384,14 @@ AnimatorTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 1
---- !u!114 &2595081260060867450
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22d7eccdaaa31b8428ce395d64fd12b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fadeTime: 3
-  fadeDelay: 0
---- !u!1102 &3102103983541802741
+--- !u!1102 &4003637932810512670
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: koha_attack2
+  m_Name: Smouse_attack2
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -438,20 +404,47 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 34ee33681e25ad7439bef818606e7d22, type: 2}
+  m_Motion: {fileID: 7400000, guid: 697d04a8a5ad85d41b906c232d016030, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &4000193490771072390
+--- !u!1102 &4054607044028210313
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: koha_idle
+  m_Name: Smouse_walk
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -1737356567291536856}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 401aac241d90a794ea12ed471427fe19, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &7076928710767227141
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Smouse_dead
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -464,41 +457,13 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 811cffe7fb3f4f9448465daaa40af6a2, type: 2}
+  m_Motion: {fileID: 7400000, guid: 6fbbf33ee7076f947b4cee8273509ae1, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &4550086806979601631
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: koha_dead
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours:
-  - {fileID: 1188127635035899456}
-  - {fileID: 2595081260060867450}
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 849e234bb25432d448d52cef88349ef2, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1101 &5476684416858685812
+--- !u!1101 &7810843505407608778
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -510,7 +475,7 @@ AnimatorStateTransition:
     m_ConditionEvent: isAlive
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 4550086806979601631}
+  m_DstState: {fileID: 7076928710767227141}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -523,34 +488,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!1102 &6211290563940823326
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: koha_attak1
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 8009886232078104345}
-  m_StateMachineBehaviours:
-  - {fileID: -2332360006878551940}
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a180ea328dba21e43859826d0d8adf93, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
 --- !u!1107 &7972668235053749028
 AnimatorStateMachine:
   serializedVersion: 6
@@ -561,17 +498,11 @@ AnimatorStateMachine:
   m_Name: Move
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: 9193379677835707369}
-    m_Position: {x: 330, y: 130, z: 0}
+    m_State: {fileID: 4054607044028210313}
+    m_Position: {x: 390, y: 130, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 9013274496532372387}
-    m_Position: {x: 230, y: -50, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 4000193490771072390}
-    m_Position: {x: 480, y: -60, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 387980950823151262}
-    m_Position: {x: 270, y: 20, z: 0}
+    m_State: {fileID: -2271796949353919575}
+    m_Position: {x: 260, y: -50, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -581,29 +512,7 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 500, y: 30, z: 0}
-  m_DefaultState: {fileID: 9193379677835707369}
---- !u!1101 &8009886232078104345
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions: []
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 0}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 1
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
+  m_DefaultState: {fileID: 4054607044028210313}
 --- !u!1109 &8167877842909691230
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -624,44 +533,18 @@ AnimatorTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 1
---- !u!1102 &9013274496532372387
+--- !u!1102 &8318214513220381931
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: koha_jump
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f43637c288e051c4ea1490859ba1f0f7, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &9193379677835707369
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: koha_walk
+  m_Name: Smouse_attack1
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 1120666996872809727}
+  - {fileID: -1844204124762845276}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -671,7 +554,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 88316777a67d8dc43916eea1d50d02db, type: 2}
+  m_Motion: {fileID: 7400000, guid: 8d91d29f1bc634c4182b0eb4a01d1f48, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

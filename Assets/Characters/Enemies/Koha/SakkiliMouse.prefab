@@ -46,7 +46,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.29210258, y: -0.49621904}
+  m_Offset: {x: -0.14785272, y: -0.272513}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -57,7 +57,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3151917, y: 1.9924381}
+  m_Size: {x: 0.5695044, y: 0.575633}
   m_EdgeRadius: 0
 --- !u!114 &8856686792462292181
 MonoBehaviour:
@@ -101,7 +101,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5466513755613482602}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.17, y: 1.59, z: -5.4087005}
+  m_LocalPosition: {x: 1.8, y: 4.01, z: -5.4087005}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -149,7 +149,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.11250472, y: -1.9489889}
+  m_Offset: {x: -0.11250472, y: -1.9378908}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -160,7 +160,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6206813, y: 0.120625496}
+  m_Size: {x: 0.6206813, y: 0.14282179}
   m_EdgeRadius: 0
 --- !u!1 &5983546015887343727
 GameObject:
@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 7649463172240081491}
   - component: {fileID: 195632691947709599}
   m_Layer: 8
-  m_Name: Koha
+  m_Name: SakkiliMouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -237,8 +237,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.30883372, y: -0.37129313}
-  m_Size: {x: 2.028197, y: 5.3374143}
+  m_Offset: {x: -0.048607826, y: 0.07701677}
+  m_Size: {x: 0.59212494, y: 1.4998797}
   m_Direction: 0
 --- !u!212 &8251013448064678071
 SpriteRenderer:
@@ -281,12 +281,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 664327897, guid: 5c08ae281f6c0bd448d6d92fe99770a4, type: 3}
+  m_Sprite: {fileID: -756161325, guid: 5b9da119ce5902346811336164b7645c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 8, y: 8}
+  m_Size: {x: 4, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -459,16 +459,16 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 1.7535257, y: -0.4863937}
-      - {x: 1.4490061, y: -0.37421823}
-      - {x: 1.3292885, y: -0.2542839}
-      - {x: 0.9560217, y: -0.1303589}
-      - {x: -0.6668649, y: -0.71683025}
-      - {x: -0.36593866, y: -1.1348927}
-      - {x: 0.200418, y: -1.5489829}
-      - {x: 0.8705693, y: -1.7532076}
-      - {x: 1.6908995, y: -1.44471}
-      - {x: 2.0448222, y: -0.7847486}
+    - - {x: 0.895356, y: -1.0605645}
+      - {x: 0.8810091, y: -0.8928241}
+      - {x: 0.7612915, y: -0.7420204}
+      - {x: 0.55471957, y: -0.5378349}
+      - {x: 0.44443345, y: -0.9143943}
+      - {x: 0.3564055, y: -0.9928935}
+      - {x: 0.24363528, y: -0.97481203}
+      - {x: 0.35196343, y: -1.1049503}
+      - {x: 0.6104704, y: -1.1977546}
+      - {x: 0.8779586, y: -1.1613553}
 --- !u!114 &1839483795416889827
 MonoBehaviour:
   m_ObjectHideFlags: 0
