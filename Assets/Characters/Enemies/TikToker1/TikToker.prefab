@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 2924892561269762012}
   - component: {fileID: 5744199115559590463}
   - component: {fileID: 812075917882086310}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TikToker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -298,8 +298,8 @@ MonoBehaviour:
   walkAcceleration: 3
   maxSpeed: 3
   walkStopRate: 0.05
-  attackZone: {fileID: 0}
-  cliffDetectionZone: {fileID: 1995259499703030667}
+  attackZone: {fileID: 1995259499703030667}
+  cliffDetectionZone: {fileID: 7103445781781784852}
   _hasTarget: 0
 --- !u!1 &7921232419723106315
 GameObject:
@@ -327,7 +327,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7921232419723106315}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.73, y: 4.04, z: 0.03833124}
+  m_LocalPosition: {x: 2.28, y: 5.42, z: 0.03833124}
   m_LocalScale: {x: 2.450265, y: 3.2712493, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
