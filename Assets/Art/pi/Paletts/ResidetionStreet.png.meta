@@ -1,0 +1,2289 @@
+fileFormatVersion: 2
+guid: d2614fe548771754caad30ab8cb47b66
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ResidetionStreet_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1040
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355e2a7adc60762499ac49a27b10bc71
+      internalID: 1360384664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1040
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d44c3b2c96057a4b91d4561fda471a0
+      internalID: 776910738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_2
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1040
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ca61c59c8026942b26f69b32539244
+      internalID: 1103605985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_3
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1040
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bd9936ea2322648bbb94a1a7b4ce7d
+      internalID: 1775399769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_4
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1040
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84871a16a1fb99948bc11b3aabc0e16a
+      internalID: 1737443504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_5
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1040
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640f8298a172b2e4cab47111de51221c
+      internalID: 423867621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_6
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1040
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e727da5d41be9d44daeacf2756e58d91
+      internalID: -2052386338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_7
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1040
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1085d4cceed72c94c95f4de35d8323e1
+      internalID: 1430141194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_8
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1040
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787c487442dd19b488501102913da8f6
+      internalID: -69803610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_9
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1040
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896c90f607b63f5438ddf95a1ff51c3e
+      internalID: -1132806690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_10
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1040
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6d3e22afaab324ea9aa472f16a7b75
+      internalID: -714726429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_11
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1041
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fba2f1b2bca6545a6b1f468afd362d
+      internalID: -253309308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_14
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 896
+        width: 120
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66a774be3d5c63498ed5e19aef7b902
+      internalID: 879167086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_15
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec72216b7dfdd341b2db5bcf0203d9b
+      internalID: -2108576198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_16
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29dde0dfdd3adf49a54ec9fa9bc0b24
+      internalID: 1382204842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_17
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6d48ae49838fc46935251a252a5095
+      internalID: 1966725208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_18
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af3582677eb73b4fbb3b4aadac58279
+      internalID: 691234801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_19
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07543e0f3de391438f165be600322f5
+      internalID: 2146275442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_20
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bc9509ba0c22248bdd8179a5ca6b8f
+      internalID: -2076031554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_21
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052e8a60406fb7a4190c7d03e18a6bd8
+      internalID: 2055606799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_22
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89410d39c90b6c74282534e4aee21658
+      internalID: -610315340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_23
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398dece263e9dd84e90631a75d007c8e
+      internalID: -1853545502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_24
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f06f9923db13f45b59d6fc18b8532d
+      internalID: 1612369299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_25
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143da3576a8dcda4fb86bd2506c07bad
+      internalID: -583328656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_28
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 752
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98d69ec3e1fe2f46a6cda09f0b11288
+      internalID: 1742367505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_29
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 752
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd37c1687739ab342be1840d30a225e9
+      internalID: 869050797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_30
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 753
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f0d754d979f2d4a8579bd2636c52bb
+      internalID: -1277635838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_31
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 752
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2e224efb62a1244b6ed7dd598dcd1e
+      internalID: 832038168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_32
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 752
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db49679733aaac3408d5168ea87e0019
+      internalID: -141014096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_33
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 752
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c27227f0a9e0448a8c82a32a817839
+      internalID: 211734224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_34
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 752
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a168a9e81e864cc4a97c8a8bfc73ff59
+      internalID: 821524454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_35
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 752
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081eebedf05cf5140820f8c6335434e6
+      internalID: -1693472300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_36
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 752
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f131cae2ccc4e64f850fbd55a4e5769
+      internalID: -645412317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_37
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 752
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4a4e7ca39b6244392199898e17a5ec
+      internalID: 792065454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_38
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 752
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b27e5ad9c25b2478204e608259663a
+      internalID: 1706639494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_39
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 752
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519529a3a5dc9cc46abf44f520f026e0
+      internalID: -2022520617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_42
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d632f55c71d7ccf4f9d0ba3d8ceb5318
+      internalID: 892831245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_43
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c41d4f267a414e43892cb413030ffc8
+      internalID: 2013048834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_44
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cb47b1887192d479efaeee08d84559
+      internalID: 449380811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_45
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059ce9e2de0405f47bc590066167118c
+      internalID: -849297408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_46
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec94429b46e4184fa8ff48f9e1e9273
+      internalID: -649779974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_47
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8120db74018b7b24a8cc63cad981dc4b
+      internalID: -2003860985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_48
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c76b74ee742bd4a91881485472f949
+      internalID: 345673225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_49
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0e3a2817efa9442932dc059d548ffa
+      internalID: -79830286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_50
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222a6a3b627f9124e9028deb26dbea12
+      internalID: 1646162856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_51
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 608
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25999c56b5e3f343b7106ebc54c9bb8
+      internalID: -1008350814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_52
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 604
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5703849edeb8d9c43a1c9e423b6e654e
+      internalID: -1507578320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_53
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 604
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fa2c31aa71dec42bc48941b3b12fe1
+      internalID: 1736475983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_56
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 464
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf152529fbf85440816f59a57bc6710
+      internalID: 972800163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_57
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 464
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27381ea2e500c784a949006d4691a605
+      internalID: 1507867618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_58
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 464
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87e302e29be14d42901093a55ca3216
+      internalID: 1678048513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_59
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 464
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c7b0d3430bbcb41b848ee0562ac4fc
+      internalID: 828107467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_60
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 464
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef991d556af1c44780b8254be587291
+      internalID: -543464918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_61
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 464
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f139783d9acbda43b0712b7aa0da3c5
+      internalID: -657341755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_62
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 464
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45af14afb1c3f43468051c97ebcba403
+      internalID: 361481711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_63
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 464
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f15c27720ef4343af17e469c8d2696
+      internalID: 1101017335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_64
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 464
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288c3144c58a7cf46ad9449d8500bc60
+      internalID: -1109465648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_65
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 464
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5af76ac0a3eb34478d224789a507ea5
+      internalID: -612647040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_66
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 464
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429accd611f8c8d4eae476e691f8f462
+      internalID: -11949574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_67
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 464
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5636f65732f8f047b99395d5a4ede57
+      internalID: 1137135213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_70
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e840392411beb36459c8e0ad7742fad3
+      internalID: 675764321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_71
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a976ee7b16eda42bd04ac18c63c7ac
+      internalID: 195104765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_72
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80e81e5f5a115b48b9a627a65449f93
+      internalID: 1204963935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_73
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e206e974c298444918cdc5cf7633b9
+      internalID: 1312754561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_74
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ac06987aebc474ab7811609df69c22
+      internalID: 1973344534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_75
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e508f066e2c9b51448358ec037af377a
+      internalID: 355903151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_76
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356a9177d2ef3034a8eb6a436aafaa8f
+      internalID: -1750699298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_77
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5951f466cc35914e8048cdb013a67dc
+      internalID: -2005447863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_78
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885b1e445d219284b868e0c40557fbd3
+      internalID: 416825786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_79
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346a07c3b504ec14e94ac34553d36303
+      internalID: 1194088159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_80
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80222db23e6ef7346aab208c6c9b4587
+      internalID: -1952214701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_81
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 320
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bde47ffafe30b74aad71e5d09b11353
+      internalID: -2095599764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_84
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e7bacc7fe193a4c8010583c716db02
+      internalID: 1804702897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_85
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03844adb3316e894db1799f1d870384b
+      internalID: -1030854369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_86
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d65783eb99ee2c448f48c4260fae3a1
+      internalID: -48118008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_87
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5074014a3fbe8441b85cc56a644c40c
+      internalID: 2018787700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_88
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca2b465825319b4c82a7f9b7fc28569
+      internalID: -584310086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_89
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec55b4d1627a2e48961d8454b6b7546
+      internalID: -1478402506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_90
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d944b6d617cffba44b04804d470d8d54
+      internalID: 1463473240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_91
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c6b288264d9704b80207d3ec593d25
+      internalID: -1827427209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_92
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e24dc83ee9eecc489cdaa43ee9e48a6
+      internalID: -1487594319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_93
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a407a60995d3ab46acdd0a1eb6a5de9
+      internalID: -2097222632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_94
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67e9170a3d8c134fa6f1fec94b96d6e
+      internalID: -1232118767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_95
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 176
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6826fcf0f5321940aaac3c52eb86bad
+      internalID: 1908763040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_98
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0555d1afd8f8745458f1695613fb1129
+      internalID: -273838083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_99
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269937ab24d82ad41af442d9c99ef064
+      internalID: 1005230777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_100
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ebc92836f597b4b9bb10cc269fc385
+      internalID: 500905646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_101
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67287c379479f645a04b081b7269c06
+      internalID: -129972673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_102
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40d13d4f7cce424e84ebfb3cbc2f96d
+      internalID: 748809603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_103
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8121464aabe93c40afa354b5580e0dd
+      internalID: -1840619127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_104
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfceee1d3da9144fb110c93f78a1085
+      internalID: -1727388450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_105
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da95fc83692e6f843a10c8731bbb894b
+      internalID: -448130815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_106
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7385e2a67a53b094f9848b06f2ab4c10
+      internalID: 1956886696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_107
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d4dba914801564cb5b714e47cf66c7
+      internalID: 1704292215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_108
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f0255233249824fbf58f7cff3d5f10
+      internalID: 307608801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResidetionStreet_109
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c838cfe2dff77074588f2ecf58b642b2
+      internalID: 2134837197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ResidetionStreet_0: 1360384664
+      ResidetionStreet_1: 776910738
+      ResidetionStreet_10: -714726429
+      ResidetionStreet_100: 500905646
+      ResidetionStreet_101: -129972673
+      ResidetionStreet_102: 748809603
+      ResidetionStreet_103: -1840619127
+      ResidetionStreet_104: -1727388450
+      ResidetionStreet_105: -448130815
+      ResidetionStreet_106: 1956886696
+      ResidetionStreet_107: 1704292215
+      ResidetionStreet_108: 307608801
+      ResidetionStreet_109: 2134837197
+      ResidetionStreet_11: -253309308
+      ResidetionStreet_110: 249052100
+      ResidetionStreet_111: 439398409
+      ResidetionStreet_112: -837082997
+      ResidetionStreet_113: 665146262
+      ResidetionStreet_114: 819882073
+      ResidetionStreet_115: 2018374504
+      ResidetionStreet_116: -1196641364
+      ResidetionStreet_117: -461342268
+      ResidetionStreet_118: 175800166
+      ResidetionStreet_119: 1650051766
+      ResidetionStreet_12: 1191209409
+      ResidetionStreet_120: -1254831586
+      ResidetionStreet_121: -800009749
+      ResidetionStreet_122: -57066076
+      ResidetionStreet_123: 1068252311
+      ResidetionStreet_124: 2127362120
+      ResidetionStreet_125: -968820875
+      ResidetionStreet_13: -1852645321
+      ResidetionStreet_14: 879167086
+      ResidetionStreet_15: -2108576198
+      ResidetionStreet_16: 1382204842
+      ResidetionStreet_17: 1966725208
+      ResidetionStreet_18: 691234801
+      ResidetionStreet_19: 2146275442
+      ResidetionStreet_2: 1103605985
+      ResidetionStreet_20: -2076031554
+      ResidetionStreet_21: 2055606799
+      ResidetionStreet_22: -610315340
+      ResidetionStreet_23: -1853545502
+      ResidetionStreet_24: 1612369299
+      ResidetionStreet_25: -583328656
+      ResidetionStreet_26: -1329501174
+      ResidetionStreet_27: 978403074
+      ResidetionStreet_28: 1742367505
+      ResidetionStreet_29: 869050797
+      ResidetionStreet_3: 1775399769
+      ResidetionStreet_30: -1277635838
+      ResidetionStreet_31: 832038168
+      ResidetionStreet_32: -141014096
+      ResidetionStreet_33: 211734224
+      ResidetionStreet_34: 821524454
+      ResidetionStreet_35: -1693472300
+      ResidetionStreet_36: -645412317
+      ResidetionStreet_37: 792065454
+      ResidetionStreet_38: 1706639494
+      ResidetionStreet_39: -2022520617
+      ResidetionStreet_4: 1737443504
+      ResidetionStreet_40: 852399825
+      ResidetionStreet_41: -929273459
+      ResidetionStreet_42: 892831245
+      ResidetionStreet_43: 2013048834
+      ResidetionStreet_44: 449380811
+      ResidetionStreet_45: -849297408
+      ResidetionStreet_46: -649779974
+      ResidetionStreet_47: -2003860985
+      ResidetionStreet_48: 345673225
+      ResidetionStreet_49: -79830286
+      ResidetionStreet_5: 423867621
+      ResidetionStreet_50: 1646162856
+      ResidetionStreet_51: -1008350814
+      ResidetionStreet_52: -1507578320
+      ResidetionStreet_53: 1736475983
+      ResidetionStreet_54: 2099667053
+      ResidetionStreet_55: -261081617
+      ResidetionStreet_56: 972800163
+      ResidetionStreet_57: 1507867618
+      ResidetionStreet_58: 1678048513
+      ResidetionStreet_59: 828107467
+      ResidetionStreet_6: -2052386338
+      ResidetionStreet_60: -543464918
+      ResidetionStreet_61: -657341755
+      ResidetionStreet_62: 361481711
+      ResidetionStreet_63: 1101017335
+      ResidetionStreet_64: -1109465648
+      ResidetionStreet_65: -612647040
+      ResidetionStreet_66: -11949574
+      ResidetionStreet_67: 1137135213
+      ResidetionStreet_68: 1145738064
+      ResidetionStreet_69: -958529699
+      ResidetionStreet_7: 1430141194
+      ResidetionStreet_70: 675764321
+      ResidetionStreet_71: 195104765
+      ResidetionStreet_72: 1204963935
+      ResidetionStreet_73: 1312754561
+      ResidetionStreet_74: 1973344534
+      ResidetionStreet_75: 355903151
+      ResidetionStreet_76: -1750699298
+      ResidetionStreet_77: -2005447863
+      ResidetionStreet_78: 416825786
+      ResidetionStreet_79: 1194088159
+      ResidetionStreet_8: -69803610
+      ResidetionStreet_80: -1952214701
+      ResidetionStreet_81: -2095599764
+      ResidetionStreet_82: -1120250996
+      ResidetionStreet_83: 579699455
+      ResidetionStreet_84: 1804702897
+      ResidetionStreet_85: -1030854369
+      ResidetionStreet_86: -48118008
+      ResidetionStreet_87: 2018787700
+      ResidetionStreet_88: -584310086
+      ResidetionStreet_89: -1478402506
+      ResidetionStreet_9: -1132806690
+      ResidetionStreet_90: 1463473240
+      ResidetionStreet_91: -1827427209
+      ResidetionStreet_92: -1487594319
+      ResidetionStreet_93: -2097222632
+      ResidetionStreet_94: -1232118767
+      ResidetionStreet_95: 1908763040
+      ResidetionStreet_96: 1103827924
+      ResidetionStreet_97: -941676921
+      ResidetionStreet_98: -273838083
+      ResidetionStreet_99: 1005230777
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

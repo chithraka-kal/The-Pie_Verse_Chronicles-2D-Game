@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3049274850674953529}
   - component: {fileID: 5273006218962167118}
   m_Layer: 0
-  m_Name: extra
+  m_Name: MarketStreet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
