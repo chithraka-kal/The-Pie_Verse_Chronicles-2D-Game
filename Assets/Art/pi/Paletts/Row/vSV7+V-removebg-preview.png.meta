@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,7 +127,574 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 349
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361bc368d9efa514c880eb432f820a1d
+      internalID: -872425292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 349
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d5ef53b78c55548a7bf605d836aaa9
+      internalID: -1635810877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 350
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ae84d99af9828459deeafa0fb3a217
+      internalID: 2114694886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 347
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f3752f9a5d4e14eb38cac25d53166a
+      internalID: 465780908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 348
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87387f1b8169efb468719dce54ecdb9d
+      internalID: -1861585525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 347
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37857c3b249f4a04ea79fadacd991e11
+      internalID: -1986807697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 347
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ce33b0dc7e4e54bb10e6883e8b4c57
+      internalID: -1860414741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 347
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae667a65d7e4c2419adad8a89d2b1ed
+      internalID: -1585750156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 347
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718c8f18dcc58b84886b8a6e0e324fbd
+      internalID: -981837938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 291
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf7fefee3d930a49994731fa8120973
+      internalID: -1314570227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 291
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bccaae08eefe7c4980154bd3a89d138
+      internalID: 1917216899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 291
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9e8729076511d4fab5f7a04b79f3c4
+      internalID: -1355238344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 290
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fdfac557a69e2409f4dbfe8e5cab6c
+      internalID: -1279872510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 291
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3eee941dfd9a52458323c62006be41a
+      internalID: -1048156141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 291
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2fda679759f974284e0abd9f32091d
+      internalID: -569126501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 290
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa0794f50d8d2844b1a9c18a8838c1c
+      internalID: 96790810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 290
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea93079673fb524589027e4f17d4615
+      internalID: -256932028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 292
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d686f4b4ba728b4193be7a059433e7a
+      internalID: 1841534953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 235
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7875311cd81d2747a6e835d8291745f
+      internalID: 1627012387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 234
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6e64112d01d8648b141f9eff8b0dec
+      internalID: 2090998940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 234
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8558a889b86ea8e419770bebe7f105dd
+      internalID: 1167112176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 234
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e70a41a60ce4848b89308b8772ea72
+      internalID: -227624378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 233
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d4756e90906f646923f22b164f65fd
+      internalID: -1059240591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 232
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00fd1d3527b697469e8c6c3f250a5b3
+      internalID: 2003654775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 233
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7afe54df2a2524daa9730f18801596
+      internalID: 132467886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 232
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f82f1b4a6a44574caadd68db4759930
+      internalID: -1518469011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vSV7+V-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 235
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e76e9b048d1924d8d728f0d3e99679
+      internalID: -1936890495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +705,61 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      vSV7+V-removebg-preview_0: -872425292
+      vSV7+V-removebg-preview_1: -1635810877
+      vSV7+V-removebg-preview_10: 1917216899
+      vSV7+V-removebg-preview_11: -1355238344
+      vSV7+V-removebg-preview_12: -1279872510
+      vSV7+V-removebg-preview_13: -1048156141
+      vSV7+V-removebg-preview_14: -569126501
+      vSV7+V-removebg-preview_15: 96790810
+      vSV7+V-removebg-preview_16: -256932028
+      vSV7+V-removebg-preview_17: 1841534953
+      vSV7+V-removebg-preview_18: 1627012387
+      vSV7+V-removebg-preview_19: 2090998940
+      vSV7+V-removebg-preview_2: 2114694886
+      vSV7+V-removebg-preview_20: 1167112176
+      vSV7+V-removebg-preview_21: -227624378
+      vSV7+V-removebg-preview_22: -1059240591
+      vSV7+V-removebg-preview_23: 2003654775
+      vSV7+V-removebg-preview_24: 132467886
+      vSV7+V-removebg-preview_25: -1518469011
+      vSV7+V-removebg-preview_26: -1936890495
+      vSV7+V-removebg-preview_27: -2116423286
+      vSV7+V-removebg-preview_28: 585186352
+      vSV7+V-removebg-preview_29: -362215810
+      vSV7+V-removebg-preview_3: 465780908
+      vSV7+V-removebg-preview_30: 863415092
+      vSV7+V-removebg-preview_31: 291146849
+      vSV7+V-removebg-preview_32: 862446124
+      vSV7+V-removebg-preview_33: -220545015
+      vSV7+V-removebg-preview_34: -1490024400
+      vSV7+V-removebg-preview_35: -79197402
+      vSV7+V-removebg-preview_36: 444067870
+      vSV7+V-removebg-preview_37: 775829609
+      vSV7+V-removebg-preview_38: 1513691510
+      vSV7+V-removebg-preview_39: -1450620445
+      vSV7+V-removebg-preview_4: -1861585525
+      vSV7+V-removebg-preview_40: 1277066458
+      vSV7+V-removebg-preview_41: -228358005
+      vSV7+V-removebg-preview_42: 1688690097
+      vSV7+V-removebg-preview_43: 1837010768
+      vSV7+V-removebg-preview_44: 72815111
+      vSV7+V-removebg-preview_45: 315011541
+      vSV7+V-removebg-preview_46: 1377231691
+      vSV7+V-removebg-preview_47: -831862301
+      vSV7+V-removebg-preview_48: 697609860
+      vSV7+V-removebg-preview_49: 1516967756
+      vSV7+V-removebg-preview_5: -1986807697
+      vSV7+V-removebg-preview_50: 466765562
+      vSV7+V-removebg-preview_51: -229939591
+      vSV7+V-removebg-preview_52: 895255774
+      vSV7+V-removebg-preview_53: 1701334985
+      vSV7+V-removebg-preview_6: -1860414741
+      vSV7+V-removebg-preview_7: -1585750156
+      vSV7+V-removebg-preview_8: -981837938
+      vSV7+V-removebg-preview_9: -1314570227
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
