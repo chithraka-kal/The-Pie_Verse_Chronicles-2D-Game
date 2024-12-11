@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water
+  m_Name: water
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,15 +20,11 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -342462081, guid: 1635056c3a6251a4da76d42100ab1ef3, type: 3}
-    - time: 0.1
-      value: {fileID: -1263173008, guid: 1635056c3a6251a4da76d42100ab1ef3, type: 3}
+      value: {fileID: 21300000, guid: f8f6f6303e5c53a40b777be7bbbe620d, type: 3}
     - time: 0.2
-      value: {fileID: -1838933517, guid: 1635056c3a6251a4da76d42100ab1ef3, type: 3}
-    - time: 0.3
-      value: {fileID: -1297714521, guid: 1635056c3a6251a4da76d42100ab1ef3, type: 3}
+      value: {fileID: 21300000, guid: 15bde542103512e47aef0ea6249de9fd, type: 3}
     - time: 0.4
-      value: {fileID: -1749543915, guid: 1635056c3a6251a4da76d42100ab1ef3, type: 3}
+      value: {fileID: 21300000, guid: 4c7a975efe1e993498e101bc0458bf7e, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,11 +44,9 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -342462081, guid: 1635056c3a6251a4da76d42100ab1ef3, type: 3}
-    - {fileID: -1263173008, guid: 1635056c3a6251a4da76d42100ab1ef3, type: 3}
-    - {fileID: -1838933517, guid: 1635056c3a6251a4da76d42100ab1ef3, type: 3}
-    - {fileID: -1297714521, guid: 1635056c3a6251a4da76d42100ab1ef3, type: 3}
-    - {fileID: -1749543915, guid: 1635056c3a6251a4da76d42100ab1ef3, type: 3}
+    - {fileID: 21300000, guid: f8f6f6303e5c53a40b777be7bbbe620d, type: 3}
+    - {fileID: 21300000, guid: 15bde542103512e47aef0ea6249de9fd, type: 3}
+    - {fileID: 21300000, guid: 4c7a975efe1e993498e101bc0458bf7e, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
