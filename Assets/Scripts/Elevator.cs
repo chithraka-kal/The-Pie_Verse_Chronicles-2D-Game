@@ -7,7 +7,8 @@ public class Elevator : MonoBehaviour
     public Transform player;
     public Transform elevatorswitch;
     public Transform downpos;
-    public Transform upperpos; 
+    public Transform upperpos;
+ 
 
     public float speed;
     bool iselevatordown;

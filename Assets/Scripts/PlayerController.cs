@@ -196,4 +196,16 @@ public class PlayerController : MonoBehaviour
     {   
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
     }
+
+
+        void OnCollisionEnter2D(Collision2D coll) {
+        if(coll.gameObject.tag == "elevator"){
+            transform.parent = coll.gameObject.transform;
+        }
+    }
+    void OnCollisionExit2D(Collision2D coll) {
+        if(coll.gameObject.tag == "elevator"){
+            transform.parent = null;
+        }
+    }
 }
