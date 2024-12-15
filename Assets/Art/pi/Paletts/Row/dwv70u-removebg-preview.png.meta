@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -127,7 +127,490 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 309
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324fa4f0c2f385049ace0846462a47df
+      internalID: -1336120086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 309
+        width: 52
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589e44d3434c05e4abdf825241818b95
+      internalID: -947815461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 309
+        width: 73
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceaa7a8125e5e2842aed7445f4155fd1
+      internalID: -1105541461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 300
+        width: 125
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2202fdb9f979044816a0834b6ae736
+      internalID: 685867363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 300
+        width: 75
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c49225799793a409cf5f18e795365a
+      internalID: 364820537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 312
+        width: 42
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7252f9336dc19243b73dbdfebdc45fd
+      internalID: -1172677133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 249
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b3abefbec9b894bab85ae58ab4acfa
+      internalID: -2028869225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 275
+        width: 52
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff3c7a33f62e3d42977fd8af9589307
+      internalID: 84632349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 249
+        width: 108
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48088b3fc8ea974583c9c168f2dcd06
+      internalID: -602800899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 232
+        width: 49
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc84af9922dca8245b5ca1ee16057c1d
+      internalID: -34040359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 238
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed97516c1fd7cbd40a6b86e22e73ef88
+      internalID: -1128507123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 247
+        width: 77
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308986e39fc175e4587f0359c41c2942
+      internalID: -185977685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 6
+        width: 127
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f424162aaf464d4c9548a4fdd8d0121
+      internalID: 85991830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 62
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad9c41a54ec5eb429de0187304c501e
+      internalID: 1866590140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 62
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cccf7fd63bbf954cbf2eb5924b85bbd
+      internalID: 1053212105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 62
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9fbc1e250f84d4bafa10106cd92251
+      internalID: 399703116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 6
+        width: 56
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87be00a622f065640a1bc5b82b3ebfd4
+      internalID: -53469544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 6
+        width: 56
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e199e753de402040b0a3d0ac38b1af1
+      internalID: -1174809891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 6
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f339e79f989ff94d8b1c9912f152e6d
+      internalID: -1474441799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 6
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c428a1ffdef0a6648916329928062b47
+      internalID: -2025267677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 6
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b2c720117669c46be5f52cad962007
+      internalID: 936564181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 6
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bb0148db97c6d4a804a533f80ea883
+      internalID: 841333992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dwv70u-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 6
+        width: 56
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7738743bfcb174d86e90e2349d2bea
+      internalID: 1637674754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +621,35 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dwv70u-removebg-preview_0: -1336120086
+      dwv70u-removebg-preview_1: -947815461
+      dwv70u-removebg-preview_10: -1128507123
+      dwv70u-removebg-preview_11: -185977685
+      dwv70u-removebg-preview_12: -1269713190
+      dwv70u-removebg-preview_13: 99811611
+      dwv70u-removebg-preview_14: 84356431
+      dwv70u-removebg-preview_15: -1592745114
+      dwv70u-removebg-preview_16: 751468625
+      dwv70u-removebg-preview_17: 85991830
+      dwv70u-removebg-preview_18: 1866590140
+      dwv70u-removebg-preview_19: 1053212105
+      dwv70u-removebg-preview_2: -1105541461
+      dwv70u-removebg-preview_20: 399703116
+      dwv70u-removebg-preview_21: -53469544
+      dwv70u-removebg-preview_22: -1174809891
+      dwv70u-removebg-preview_23: -1474441799
+      dwv70u-removebg-preview_24: -2025267677
+      dwv70u-removebg-preview_25: 936564181
+      dwv70u-removebg-preview_26: 841333992
+      dwv70u-removebg-preview_27: 1637674754
+      dwv70u-removebg-preview_3: 685867363
+      dwv70u-removebg-preview_4: 364820537
+      dwv70u-removebg-preview_5: -1172677133
+      dwv70u-removebg-preview_6: -2028869225
+      dwv70u-removebg-preview_7: 84632349
+      dwv70u-removebg-preview_8: -602800899
+      dwv70u-removebg-preview_9: -34040359
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
