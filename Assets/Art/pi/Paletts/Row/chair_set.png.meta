@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b85409efc6655944ca006a00efc10822
+guid: a65f280ec23e7b14da4ee5b7be07a490
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 45
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,211 +129,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Residential_0
+      name: chair_set_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 311
-        width: 25
+        x: 27
+        y: 14
+        width: 286
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57194aede22483447ad0b01db81f35a0
+      internalID: -45080081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chair_set_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 140
+        width: 75
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55dc2a069ec26ec48b7ea6e9af2b035b
+      internalID: 291922714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chair_set_2
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 140
+        width: 75
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2956a71923364bc46af0f7311c008f7f
+      internalID: -1326410873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chair_set_3
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 141
+        width: 75
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23aee2b96129b374fbe54f36c8ab8cbb
+      internalID: 611745339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chair_set_4
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 14
+        width: 72
         height: 94
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3af46b838b63bb94dbf1d315050ed4e3
-      internalID: -319895898
+      spriteID: 693391400cbf8a34e9be7c9cebf7874a
+      internalID: 1247846854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Residential_1
+      name: chair_set_5
       rect:
         serializedVersion: 2
-        x: 18
-        y: 138
-        width: 33
-        height: 114
-      alignment: 9
-      pivot: {x: 0.5, y: 0.38}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d54b9a056a1a7644f9876cc157efc775
-      internalID: 833977321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Residential_2
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 138
-        width: 36
-        height: 114
-      alignment: 9
-      pivot: {x: 0.5, y: 0.38}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19f5ef1fd8c3ad846ab7ac2803bf9e90
-      internalID: 1734604046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Residential_3
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 138
-        width: 36
-        height: 114
-      alignment: 9
-      pivot: {x: 0.5, y: 0.38}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98f7be45e0bf2124a8f641ce0df99d32
-      internalID: 1502260449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Residential_4
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 131
-        width: 35
-        height: 117
-      alignment: 9
-      pivot: {x: 0.5, y: 0.44}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5700604e8be48eb4f952446fe3c9fa63
-      internalID: 434070556
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Residential_5
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 132
-        width: 36
-        height: 116
-      alignment: 9
-      pivot: {x: 0.5, y: 0.43}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d1fc23eac8277d4c9c3c2cdbfe4ac21
-      internalID: -2124706832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Residential_6
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 130
-        width: 35
-        height: 113
-      alignment: 9
-      pivot: {x: 0.5, y: 0.46}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9941afc3840ad4b4893c044b5e6b2f8a
-      internalID: -1028363624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Residential_7
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 308
-        width: 47
-        height: 100
+        x: 420
+        y: 14
+        width: 51
+        height: 94
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c78f29415bfd40e4fbe5ac090d02e53a
-      internalID: -1012845310
+      spriteID: 5c6efcb9d55bc354ebce890c58de5253
+      internalID: -1192301329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Residential_8
+      name: chair_set_6
       rect:
         serializedVersion: 2
-        x: 320
-        y: 153
-        width: 46
-        height: 179
-      alignment: 9
-      pivot: {x: 0.5, y: 0.39}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbbce652f008e3c40b40d365824c855c
-      internalID: 96852900
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Residential_9
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 268
-        width: 47
-        height: 50
+        x: 503
+        y: 14
+        width: 60
+        height: 94
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d1ce43160d93734fb661b6b3c764a6a
-      internalID: -565825299
+      spriteID: 5636f29c471ec3242bdf7749e5bcc624
+      internalID: 956378713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chair_set_7
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 14
+        width: 125
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a55ff52f65db904495574651103ec06
+      internalID: 1009088193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chair_set_8
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 14
+        width: 125
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f248d78b0c3c147825b5de91668710
+      internalID: -595159550
       vertices: []
       indices: 
       edges: []
@@ -349,16 +328,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Residential_0: -319895898
-      Residential_1: 833977321
-      Residential_2: 1734604046
-      Residential_3: 1502260449
-      Residential_4: 434070556
-      Residential_5: -2124706832
-      Residential_6: -1028363624
-      Residential_7: -1012845310
-      Residential_8: 96852900
-      Residential_9: -565825299
+      chair_set_0: -45080081
+      chair_set_1: 291922714
+      chair_set_2: -1326410873
+      chair_set_3: 611745339
+      chair_set_4: 1247846854
+      chair_set_5: -1192301329
+      chair_set_6: 956378713
+      chair_set_7: 1009088193
+      chair_set_8: -595159550
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
