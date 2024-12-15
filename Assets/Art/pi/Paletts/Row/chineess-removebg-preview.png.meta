@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 72370bb03694193409aa2f374f98cc23
+guid: 735b2f9a28dbc3a4d989ff5edac17b53
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shop2_0
+      name: chineess-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 96
-        height: 64
+        x: 35
+        y: 46
+        width: 244
+        height: 203
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1303b705f4cf6eb4992996444ea482d1
-      internalID: 1540142611
+      spriteID: 2d103616b8b6f734c938fe913f8c575d
+      internalID: 181320078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop2_1
+      name: chineess-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 96
-        height: 64
+        x: 317
+        y: 46
+        width: 44
+        height: 191
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0dfa2961e5e841428129ddd0e448a71
-      internalID: -1324797340
+      spriteID: 00a69b74376c2be438219cd6f1177c85
+      internalID: -1137951269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop2_2
+      name: chineess-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 96
-        height: 64
+        x: 373
+        y: 47
+        width: 108
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,19 +185,124 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 810be8cb2e2f7534a84df092970bbfdd
-      internalID: 899236033
+      spriteID: f6cd7f156a194824e85ed5cf1a6cf571
+      internalID: -723834462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shop2_3
+      name: chineess-removebg-preview_3
       rect:
         serializedVersion: 2
-        x: 288
-        y: 0
-        width: 96
+        x: 505
+        y: 189
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7edd8f8981f83b4f90387c3bca3b620
+      internalID: 1807298022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chineess-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 183
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf0b5241c3ce4741845d872bf1ab295
+      internalID: 969773404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chineess-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 190
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6e95e6cda6ed549a70f0fd6ae818aa
+      internalID: -1179192787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chineess-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 196
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b756dd8a00ab4c542ba5bb3b7c0d4bd4
+      internalID: 1312550858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chineess-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 49
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20395905662ec5a49abfe2035016003b
+      internalID: 657287972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chineess-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 34
+        width: 44
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -206,8 +311,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bde9a4311e2b95c4bbbda4b6fe0ab38d
-      internalID: -855569578
+      spriteID: 111da849e0ce23c489b06a9fb4e0a015
+      internalID: 1798259368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chineess-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 46
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a995290a214f72a40bf3dc57ae8023c2
+      internalID: -2103434150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chineess-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 55
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bb304ff23f5804c9fe4c82ff878a25
+      internalID: 37254575
       vertices: []
       indices: 
       edges: []
@@ -223,10 +370,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Shop2_0: 1540142611
-      Shop2_1: -1324797340
-      Shop2_2: 899236033
-      Shop2_3: -855569578
+      chineess-removebg-preview_0: 181320078
+      chineess-removebg-preview_1: -1137951269
+      chineess-removebg-preview_10: 37254575
+      chineess-removebg-preview_2: -723834462
+      chineess-removebg-preview_3: 1807298022
+      chineess-removebg-preview_4: 969773404
+      chineess-removebg-preview_5: -1179192787
+      chineess-removebg-preview_6: 1312550858
+      chineess-removebg-preview_7: 657287972
+      chineess-removebg-preview_8: 1798259368
+      chineess-removebg-preview_9: -2103434150
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
