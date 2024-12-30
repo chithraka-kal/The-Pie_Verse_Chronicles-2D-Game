@@ -85,8 +85,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 899849e63b9011540b6a65a2681e7f4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 20
-  knockback: {x: 2, y: 2}
+  attackDamage: 1
+  knockback: {x: 0.5, y: 0.5}
 --- !u!1 &3136549320919917064
 GameObject:
   m_ObjectHideFlags: 0
