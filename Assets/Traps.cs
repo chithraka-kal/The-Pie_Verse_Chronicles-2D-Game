@@ -8,11 +8,15 @@ public class Traps : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.CompareTag("Player")){
+
         // Check if the object can be damaged
         Damageable damageable = collision.GetComponent<Damageable>();
         if (damageable != null)
         {
             damageable.Hit(damage, Vector2.zero); // Apply damage with no knockback
+        }
+
         }
     }
 }
