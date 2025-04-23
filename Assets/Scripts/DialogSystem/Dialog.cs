@@ -6,11 +6,12 @@ public class Dialog : MonoBehaviour
 {
     public TextMeshProUGUI dialogText;
     public string[] sentences;
-    private int index;
     public float typingSpeed = 0.05f;
     public GameObject continueButton;
+    public Animator animator;
 
     private Coroutine typingCoroutine;
+    private int index = 0;
     private bool isTyping = false;
 
     void Start()
@@ -23,12 +24,18 @@ public class Dialog : MonoBehaviour
     {
         index = 0;
         dialogText.text = "";
+        Time.timeScale = 0f; // Pause game
+        gameObject.SetActive(true);
+        animator.Play("Dialog_PopIn");
 
-        if (typingCoroutine != null)
-            StopCoroutine(typingCoroutine);
+        // Start typing after short delay to let animation finish
+        StartCoroutine(DelayedTypeStart(0.3f));
+    }
 
+    IEnumerator DelayedTypeStart(float delay)
+    {
+        yield return new WaitForSecondsRealtime(delay);
         typingCoroutine = StartCoroutine(Type());
-        Time.timeScale = 0f; // Pause the game
     }
 
     IEnumerator Type()
@@ -70,7 +77,7 @@ public class Dialog : MonoBehaviour
             dialogText.text = "";
             continueButton.SetActive(false);
             Time.timeScale = 1f; // Resume game
-            gameObject.SetActive(false); // Hide dialog
+            gameObject.SetActive(false);
         }
     }
 }
