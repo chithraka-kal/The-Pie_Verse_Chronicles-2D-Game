@@ -13,17 +13,25 @@ public class Dialog : MonoBehaviour
     private Coroutine typingCoroutine;
     private bool isTyping = false;
 
-    void Start()
+void Start()
+{
+    if (dialogText == null || continueButton == null)
     {
-        if (sentences.Length > 0)
-        {
-            typingCoroutine = StartCoroutine(Type());
-        }
-        else
-        {
-            Debug.LogWarning("No sentences assigned!");
-        }
+        Debug.LogError("UI references not assigned!");
+        enabled = false;
+        return;
     }
+
+    if (sentences.Length > 0)
+    {
+        typingCoroutine = StartCoroutine(Type());
+    }
+    else
+    {
+        Debug.LogWarning("No sentences assigned!");
+    }
+}
+
 
     void Update()
     {
@@ -49,11 +57,17 @@ public class Dialog : MonoBehaviour
         continueButton.SetActive(true);
     }
 
-    public void NextSentence()
+public void NextSentence()
+{
+    if (isTyping)
     {
-        if (typingCoroutine != null)
-            StopCoroutine(typingCoroutine);
-
+        StopCoroutine(typingCoroutine);
+        dialogText.text = sentences[index];
+        isTyping = false;
+        continueButton.SetActive(true);
+    }
+    else
+    {
         continueButton.SetActive(false);
 
         if (index < sentences.Length - 1)
@@ -65,6 +79,21 @@ public class Dialog : MonoBehaviour
         {
             dialogText.text = "";
             continueButton.SetActive(false);
+            Time.timeScale = 1f; // Resume game when dialog ends
+            gameObject.SetActive(false); // Optional: Hide dialog box
         }
     }
+}
+
+public void StartDialog()
+{
+    index = 0;
+    dialogText.text = "";
+    if (typingCoroutine != null)
+        StopCoroutine(typingCoroutine);
+
+    typingCoroutine = StartCoroutine(Type());
+}
+
+
 }
