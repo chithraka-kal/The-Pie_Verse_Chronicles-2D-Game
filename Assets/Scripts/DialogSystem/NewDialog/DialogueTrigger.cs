@@ -1,7 +1,5 @@
 using System.Collections.Generic;
 using UnityEngine;
-
-//git status
  
 [System.Serializable]
 public class DialogueCharacter
