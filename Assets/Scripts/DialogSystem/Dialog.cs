@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
@@ -7,42 +6,78 @@ public class Dialog : MonoBehaviour
 {
     public TextMeshProUGUI dialogText;
     public string[] sentences;
-    private int index;
-    public float typingSpeed;
-
+    public float typingSpeed = 0.05f;
     public GameObject continueButton;
+    public Animator animator;
+
+    private Coroutine typingCoroutine;
+    private int index = 0;
+    private bool isTyping = false;
 
     void Start()
     {
-        StartCoroutine(Type());
+        dialogText.text = "";
+        continueButton.SetActive(false);
     }
 
-    void Update()
+    public void StartDialog()
     {
-        if (dialogText.text == sentences[index]){
-            continueButton.SetActive(true);
-        } 
+        index = 0;
+        dialogText.text = "";
+        Time.timeScale = 0f; // Pause game
+        gameObject.SetActive(true);
+        animator.Play("Dialog_PopIn");
+
+        // Start typing after short delay to let animation finish
+        StartCoroutine(DelayedTypeStart(0.3f));
     }
 
-    IEnumerator Type(){
-         
-        foreach (char letter in sentences[index].ToCharArray()){
+    IEnumerator DelayedTypeStart(float delay)
+    {
+        yield return new WaitForSecondsRealtime(delay);
+        typingCoroutine = StartCoroutine(Type());
+    }
+
+    IEnumerator Type()
+    {
+        isTyping = true;
+        dialogText.text = "";
+        continueButton.SetActive(false);
+
+        foreach (char letter in sentences[index].ToCharArray())
+        {
             dialogText.text += letter;
-            yield return new WaitForSeconds(typingSpeed);
+            yield return new WaitForSecondsRealtime(typingSpeed);
         }
+
+        isTyping = false;
+        continueButton.SetActive(true);
     }
 
-    public void NextSentence(){
+    public void NextSentence()
+    {
+        if (isTyping)
+        {
+            StopCoroutine(typingCoroutine);
+            dialogText.text = sentences[index];
+            isTyping = false;
+            continueButton.SetActive(true);
+            return;
+        }
 
         continueButton.SetActive(false);
 
-        if (index < sentences.Length - 1){
+        if (index < sentences.Length - 1)
+        {
             index++;
-            dialogText.text = "";
-            StartCoroutine(Type());
-        } else {
+            typingCoroutine = StartCoroutine(Type());
+        }
+        else
+        {
             dialogText.text = "";
             continueButton.SetActive(false);
+            Time.timeScale = 1f; // Resume game
+            gameObject.SetActive(false);
         }
     }
 }
