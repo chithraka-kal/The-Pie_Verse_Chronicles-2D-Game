@@ -73,9 +73,9 @@ public class DialogueManager : MonoBehaviour
         }
     }
  
-    // void EndDialogue()
-    // {
-    //     isDialogueActive = false;
-    //     animator.Play("hide");
-    // }
+    void EndDialogue()
+    {
+        isDialogueActive = false;
+        animator.Play("hide");
+    }
 }
