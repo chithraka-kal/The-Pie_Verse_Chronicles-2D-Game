@@ -26,7 +26,7 @@ public class Dialog : MonoBehaviour
         dialogText.text = "";
         Time.timeScale = 0f; // Pause game
         gameObject.SetActive(true);
-        animator.Play("DialogBox");
+        animator.Play("Dialog_PopIn");
 
         // Start typing after short delay to let animation finish
         StartCoroutine(DelayedTypeStart(0.3f));
