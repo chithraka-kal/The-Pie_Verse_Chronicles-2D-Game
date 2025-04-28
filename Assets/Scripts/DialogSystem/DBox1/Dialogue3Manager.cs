@@ -19,6 +19,13 @@ public class Dialogue3Manager : MonoBehaviour
     public float typingSpeed = 0.2f;
  
     public Animator animator;
+
+    private AudioSource source;
+
+    void Start()
+    {
+        source = GetComponent<AudioSource>();
+    }
  
     private void Awake()
     {
@@ -48,6 +55,7 @@ public class Dialogue3Manager : MonoBehaviour
  
     public void DisplayNextDialogueLine()
     {
+        source.Play();
         if (lines.Count == 0)
         {
             EndDialogue();
