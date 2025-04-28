@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
  
 [System.Serializable]
-public class DialogueCharacter
+public class Dialogue3Character
 {
     public string name;
     public Sprite icon;
@@ -11,7 +11,7 @@ public class DialogueCharacter
 [System.Serializable]
 public class DialogueLine
 {
-    public DialogueCharacter character;
+    public Dialogue3Character character;
     [TextArea(3, 10)]
     public string line;
 }

@@ -77,12 +77,4 @@ public class Dialogue3Manager : MonoBehaviour
         isDialogueActive = false;
         animator.Play("hide");
     }
-//         void Update()
-// {
-//     if (animator.GetBool("IsOpen") && Input.GetKeyDown(KeyCode.Return))
-//     {
-//         DisplayNextDialogueLine();
-//     }
-// }
-
 }
