@@ -20,6 +20,12 @@ public class NPCDialogueManager : MonoBehaviour
 
     public float typingSpeed = 0.2f;
 
+    private AudioSource source;
+    void Start()
+    {
+        source = GetComponent<AudioSource>();
+    }
+
     private void Awake()
     {
         if (Instance == null)
@@ -46,6 +52,7 @@ public class NPCDialogueManager : MonoBehaviour
 
     public void DisplayNextDialogueLine()
     {
+        source.Play();  // Play the sound effect for the dialogue
         if (npcLines.Count == 0)
         {
             EndDialogue();
