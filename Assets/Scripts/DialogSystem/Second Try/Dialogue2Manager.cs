@@ -51,4 +51,13 @@ public class Dialogue2Manager : MonoBehaviour
         nameText.text = string.Empty;
     }
 
+    void Update()
+{
+    if (animator.GetBool("IsOpen") && Input.GetKeyDown(KeyCode.Return))
+    {
+        DisplayNextSentence();
+    }
+}
+
+
 }
