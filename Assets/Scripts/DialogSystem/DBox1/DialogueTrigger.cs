@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
  
 [System.Serializable]
-public class Dialogue3Character
+public class DialogueCharacter
 {
     public string name;
     public Sprite icon;
@@ -11,7 +11,7 @@ public class Dialogue3Character
 [System.Serializable]
 public class DialogueLine
 {
-    public Dialogue3Character character;
+    public DialogueCharacter character;
     [TextArea(3, 10)]
     public string line;
 }
@@ -22,13 +22,13 @@ public class Dialogue
     public List<DialogueLine> dialogueLines = new List<DialogueLine>();
 }
  
-public class Dialogue3Trigger : MonoBehaviour
+public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dialogue;
  
     public void TriggerDialogue()
     {
-        Dialogue3Manager.Instance.StartDialogue(dialogue);
+        DialogueManager.Instance.StartDialogue(dialogue);
     }
  
     private void OnTriggerEnter2D(Collider2D collision)
