@@ -4,25 +4,24 @@ using UnityEngine;
 
 public class GroundCheck : MonoBehaviour
 {
-    
     [SerializeField] private Transform rayCastOrigin;
     [SerializeField] private Transform playerFeet;
-    [SerializeField] private Transform layerMask;
-    private RaycastHit2D Hit2D;
+    [SerializeField] private LayerMask layerMask;  // Fixed type
+    private RaycastHit2D hit2D;
 
-    
-
-    // Update is called once per frame
     void Update()
     {
-        GrroundCheckMethod();
+        GroundCheckMethod();  // fixed typo
     }
 
-        private void GrroundCheckMethod(){
-        Hit2D = Physics2D.Raycast(rayCastOrigin.position, -Vector2.up, 100f, layerMask.gameObject.layer);
-        if(Hit2D != false){
+    private void GroundCheckMethod()
+    {
+        hit2D = Physics2D.Raycast(rayCastOrigin.position, Vector2.down, 100f, layerMask);
+        
+        if (hit2D)
+        {
             Vector2 temp = playerFeet.position;
-            temp.y = Hit2D.point.y;
+            temp.y = hit2D.point.y;
             playerFeet.position = temp;
         }
     }
