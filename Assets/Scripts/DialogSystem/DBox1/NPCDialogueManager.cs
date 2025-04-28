@@ -1,88 +1,79 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
- 
-public class Dialogue3Manager : MonoBehaviour
+using UnityEngine.UI;
+
+public class NPCDialogueManager : MonoBehaviour
 {
-    public static Dialogue3Manager Instance;
- 
-    public Image characterIcon;
-    public TextMeshProUGUI characterName;
-    public TextMeshProUGUI dialogueArea;
- 
-    private Queue<DialogueLine> lines;
-    
+    public static NPCDialogueManager Instance;
+
+    public Image npcCharacterIcon;
+    public TextMeshProUGUI npcCharacterName;
+    public TextMeshProUGUI npcDialogueArea;
+
+    private Queue<DialogueLine> npcLines;
+
+    public Animator npcAnimator;
+
     public bool isDialogueActive = false;
- 
+
     public float typingSpeed = 0.2f;
- 
-    public Animator animator;
- 
+
     private void Awake()
     {
         if (Instance == null)
             Instance = this;
- 
-        lines = new Queue<DialogueLine>();
+
+        npcLines = new Queue<DialogueLine>();
     }
- 
+
     public void StartDialogue(Dialogue dialogue)
     {
         isDialogueActive = true;
- 
-        animator.Play("show");
- 
-        lines.Clear();
- 
+
+        npcAnimator.Play("show");  // Play the NPC DBox show animation
+
+        npcLines.Clear();
+
         foreach (DialogueLine dialogueLine in dialogue.dialogueLines)
         {
-            lines.Enqueue(dialogueLine);
+            npcLines.Enqueue(dialogueLine);
         }
- 
+
         DisplayNextDialogueLine();
     }
- 
+
     public void DisplayNextDialogueLine()
     {
-        if (lines.Count == 0)
+        if (npcLines.Count == 0)
         {
             EndDialogue();
             return;
         }
- 
-        DialogueLine currentLine = lines.Dequeue();
- 
-        characterIcon.sprite = currentLine.character.icon;
-        characterName.text = currentLine.character.name;
- 
+
+        DialogueLine currentLine = npcLines.Dequeue();
+
+        npcCharacterIcon.sprite = currentLine.character.icon;
+        npcCharacterName.text = currentLine.character.name;
+
         StopAllCoroutines();
- 
         StartCoroutine(TypeSentence(currentLine));
     }
- 
+
     IEnumerator TypeSentence(DialogueLine dialogueLine)
     {
-        dialogueArea.text = "";
+        npcDialogueArea.text = "";
         foreach (char letter in dialogueLine.line.ToCharArray())
         {
-            dialogueArea.text += letter;
+            npcDialogueArea.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
     }
- 
+
     void EndDialogue()
     {
         isDialogueActive = false;
-        animator.Play("hide");
+        npcAnimator.Play("hide");  // Play hide animation
     }
-//         void Update()
-// {
-//     if (animator.GetBool("IsOpen") && Input.GetKeyDown(KeyCode.Return))
-//     {
-//         DisplayNextDialogueLine();
-//     }
-// }
-
 }
