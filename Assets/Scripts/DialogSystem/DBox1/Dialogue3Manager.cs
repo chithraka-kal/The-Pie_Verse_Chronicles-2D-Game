@@ -30,6 +30,7 @@ public class Dialogue3Manager : MonoBehaviour
  
     public void StartDialogue(Dialogue dialogue)
     {
+
         isDialogueActive = true;
  
         animator.Play("show");
@@ -39,6 +40,7 @@ public class Dialogue3Manager : MonoBehaviour
         foreach (DialogueLine dialogueLine in dialogue.dialogueLines)
         {
             lines.Enqueue(dialogueLine);
+            Debug.Log("Starting dialogue with " + dialogue.dialogueLines[0].character.name);
         }
  
         DisplayNextDialogueLine();
