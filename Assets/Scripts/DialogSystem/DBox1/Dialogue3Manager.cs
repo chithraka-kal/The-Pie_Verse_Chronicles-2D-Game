@@ -11,6 +11,9 @@ public class Dialogue3Manager : MonoBehaviour
     public Image characterIcon;
     public TextMeshProUGUI characterName;
     public TextMeshProUGUI dialogueArea;
+    public GameObject playerDBox;
+    public GameObject npcDBox;
+
  
     private Queue<DialogueLine> lines;
     
@@ -44,23 +47,36 @@ public class Dialogue3Manager : MonoBehaviour
         DisplayNextDialogueLine();
     }
  
-    public void DisplayNextDialogueLine()
+ public void DisplayNextDialogueLine()
+{
+    if (lines.Count == 0)
     {
-        if (lines.Count == 0)
-        {
-            EndDialogue();
-            return;
-        }
- 
-        DialogueLine currentLine = lines.Dequeue();
- 
-        characterIcon.sprite = currentLine.character.icon;
-        characterName.text = currentLine.character.name;
- 
-        StopAllCoroutines();
- 
-        StartCoroutine(TypeSentence(currentLine));
+        EndDialogue();
+        return;
     }
+
+    DialogueLine currentLine = lines.Dequeue();
+
+    characterIcon.sprite = currentLine.character.icon;
+    characterName.text = currentLine.character.name;
+
+    // --- New part: Decide which DBox to show ---
+    if (currentLine.character.name == "Player") // Adjust name if needed
+    {
+        playerDBox.SetActive(true);
+        npcDBox.SetActive(false);
+    }
+    else
+    {
+        npcDBox.SetActive(true);
+        playerDBox.SetActive(false);
+    }
+    // --- End of new part ---
+
+    StopAllCoroutines();
+    StartCoroutine(TypeSentence(currentLine));
+}
+
  
     IEnumerator TypeSentence(DialogueLine dialogueLine)
     {
