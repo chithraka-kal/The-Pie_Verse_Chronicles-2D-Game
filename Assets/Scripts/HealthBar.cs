@@ -97,7 +97,7 @@ private void UpdateHealthBar(int currentHealth, int maxHealth)
 
     // Update health slider and text to show current heart's HP
     healthSlider.value = (float)currentHeartHP / healthPerHeart;
-    healthBarText.text = "HP " + currentHeartHP + " / " + healthPerHeart;
+    healthBarText.text = currentHeartHP + " / " + healthPerHeart;
 
     // Add hearts if needed
     if (hearts.Count < totalHearts)
