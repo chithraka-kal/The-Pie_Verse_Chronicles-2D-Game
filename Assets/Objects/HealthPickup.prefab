@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1480503679318904066}
   - component: {fileID: 2715788606022625373}
-  - component: {fileID: 1557685958617754568}
   - component: {fileID: 7633354017271127855}
   - component: {fileID: 8090122413781707690}
+  - component: {fileID: 3345213328368398265}
   m_Layer: 12
   m_Name: HealthPickup
   m_TagString: Untagged
@@ -87,20 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1557685958617754568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5260029904438229459}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8580e627c994524a9a41c7f502e39dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthRestore: 20
-  spinRotationSpeed: {x: 0, y: 180, z: 0}
 --- !u!58 &7633354017271127855
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -213,3 +199,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3345213328368398265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5260029904438229459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d6bdbb843abdc34c9848893bd061e2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heartHealthAmount: 100
+  spinRotationSpeed: {x: 0, y: 180, z: 0}
