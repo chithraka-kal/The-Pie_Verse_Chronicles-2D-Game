@@ -30,6 +30,9 @@ namespace Bundos.WaterSystem
         [Header("Particles")]
         public GameObject splashParticle;
 
+        [Header("Sounds")]
+        public AudioSource splashSound;
+
         [HideInInspector]
         Spring[] springs;
         MeshFilter meshFilter;
@@ -219,6 +222,11 @@ namespace Bundos.WaterSystem
                 Vector2 contactPoint = other.ClosestPoint(transform.position);
 
                 Ripple(contactPoint, false);
+            }
+
+            if (other.CompareTag("Player") && splashSound != null)
+            {
+                splashSound.Play();
             }
         }
 
