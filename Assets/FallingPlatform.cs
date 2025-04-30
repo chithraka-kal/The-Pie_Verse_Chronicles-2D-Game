@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FallingPlatform : MonoBehaviour
@@ -8,6 +7,7 @@ public class FallingPlatform : MonoBehaviour
     public float destroyDelay = 2f;
 
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private AudioSource fallingSound; // Drag your AudioSource with clip here
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -20,6 +20,13 @@ public class FallingPlatform : MonoBehaviour
     private IEnumerator Fall()
     {
         yield return new WaitForSeconds(fallDelay);
+
+        // Play falling sound here
+        if (fallingSound != null)
+        {
+            fallingSound.Play();
+        }
+
         rb.bodyType = RigidbodyType2D.Dynamic;
         Destroy(gameObject, destroyDelay);
     }
