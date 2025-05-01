@@ -327,7 +327,7 @@
                     "name": "",
                     "id": "433ca05e-7bca-4d24-a903-de3393e09a7c",
                     "path": "<Keyboard>/t",
-                    "interactions": "",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Torch",

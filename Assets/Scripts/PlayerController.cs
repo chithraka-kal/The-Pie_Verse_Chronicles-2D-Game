@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering.Universal; 
 
 [RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections), typeof(Damageable))]
 public class PlayerController : MonoBehaviour
@@ -10,6 +11,11 @@ public class PlayerController : MonoBehaviour
     public float runSpeed = 6f;
     public float airWalkSpeed = 3f;
     public float jumpImpulse = 6f;
+
+    public Light2D torchLight;
+    public AudioSource torchAudioSource;
+    public AudioClip toggleTorchSound;
+    private bool torchOn = false;
     Vector2 moveInput;
     TouchingDirections touchingDirections;
     Damageable damageable;
@@ -116,10 +122,21 @@ private void SetFacingDirection(Vector2 moveInput)
             rootBone.localScale = scale;
         }
 
+        FlipTorchLight();
+        Debug.Log("Flipping torch light");
+
         _isFacingRight = moveInput.x > 0;
     }
 }
 
+private void FlipTorchLight(){
+    if (torchLight != null) return;
+    if(IsFacingRight){
+        torchLight.transform.localEulerAngles = new Vector3(0, 0, 0);
+    } else {
+        torchLight.transform.localEulerAngles = new Vector3(0, 180, 0);
+    }
+}
 
 
     public void onRun(InputAction.CallbackContext context)
@@ -160,10 +177,19 @@ private void SetFacingDirection(Vector2 moveInput)
         }
     }
 
-    public void OnHit(int damage, Vector2 knockback)
+    public void onTorchOn(InputAction.CallbackContext context)
     {
-        rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
+        if (context.started && torchLight != null)
+        {
+            torchLight.enabled = !torchLight.enabled;
+        }
+
+        if (torchAudioSource != null && toggleTorchSound != null)
+        {
+            torchAudioSource.PlayOneShot(toggleTorchSound);
+        }
     }
+
 
     void OnCollisionEnter2D(Collision2D coll)
     {
