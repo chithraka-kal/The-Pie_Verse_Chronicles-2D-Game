@@ -14,102 +14,63 @@ public class PlayerController : MonoBehaviour
     TouchingDirections touchingDirections;
     Damageable damageable;
 
-    public float CurrentMoveSpeed { get
-        {   
-            if(CanMove)
-            {
-                if (IsMoving && !touchingDirections.IsOnWall)
-                {
-                    if (touchingDirections.IsGrounded)
-                    {
-                        if (IsRunning)
-                        {
-                            return runSpeed;
-                        }
-                        else
-                        {
-                            return walkSpeed;
-                        }
-                    }
-                    else
-                    {
-                        // Air state checks
+    public float CurrentMoveSpeed {
+        get {
+            if (CanMove) {
+                if (IsMoving && !touchingDirections.IsOnWall) {
+                    if (touchingDirections.IsGrounded) {
+                        return IsRunning ? runSpeed : walkSpeed;
+                    } else {
                         return airWalkSpeed;
                     }
-                }
-                else
-                {
-                    // Idle speed is zero
+                } else {
                     return 0;
                 }
-            } else
-                {
-                    // Movement locked
-                    return 0;
-                }
+            } else {
+                return 0;
+            }
         }
     }
 
     [SerializeField] private bool _isMoving = false;
-
-    public bool IsMoving
-    {
-        get
-        {
-            return _isMoving;
-        }
-        private set
-        {
+    public bool IsMoving {
+        get => _isMoving;
+        private set {
             _isMoving = value;
             animator.SetBool(AnimationStrings.isMoving, value);
         }
     }
 
     [SerializeField] private bool _isRunning = false;
-    public bool IsRunning
-    {
-        get
-        {
-            return _isRunning;
-        }
-        set
-        {
+    public bool IsRunning {
+        get => _isRunning;
+        set {
             _isRunning = value;
             animator.SetBool(AnimationStrings.isRunning, value);
         }
     }
 
     public bool _isFacingRight = true;
-
-    public bool IsFacingRight
-    {
-        get
-        {
-            return _isFacingRight;
-        }
-        private set
-        {
-            if (_isFacingRight != value)
-            {
-                transform.localScale *= new Vector2(-1, 1);
-            }
+    public bool IsFacingRight {
+        get => _isFacingRight;
+        private set {
             _isFacingRight = value;
         }
     }
 
-    public bool CanMove { get
-    {
-        return animator.GetBool(AnimationStrings.canMove);
-    }}
-
-    public bool IsAlive {
-        get{
-            return animator.GetBool(AnimationStrings.isAlive);
-        }
-    }
+    public bool CanMove => animator.GetBool(AnimationStrings.canMove);
+    public bool IsAlive => animator.GetBool(AnimationStrings.isAlive);
 
     Rigidbody2D rb;
     Animator animator;
+
+    // === FLIP SOLUTIONS ===
+
+    // Option A: If using SpriteRenderer
+    // private SpriteRenderer spriteRenderer;
+
+    // Option B: If using SkinnedMeshRenderer and bone rig
+    public Transform rootBone; // Assign this manually in Inspector
 
     private void Awake()
     {
@@ -117,11 +78,13 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         touchingDirections = GetComponent<TouchingDirections>();
         damageable = GetComponent<Damageable>();
+
+        // spriteRenderer = GetComponent<SpriteRenderer>(); // Uncomment if using SpriteRenderer
     }
 
     private void FixedUpdate()
-    {   
-        if(!damageable.LockVelocity)
+    {
+        if (!damageable.LockVelocity)
             rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
 
         animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
@@ -131,7 +94,7 @@ public class PlayerController : MonoBehaviour
     {
         moveInput = context.ReadValue<Vector2>();
 
-        if(IsAlive)
+        if (IsAlive)
         {
             IsMoving = moveInput != Vector2.zero;
             SetFacingDirection(moveInput);
@@ -142,17 +105,47 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void SetFacingDirection(Vector2 moveInput)
+// Add reference to attack transform
+
+public Transform torch;
+
+private void SetFacingDirection(Vector2 moveInput)
+{
+    if (moveInput.x != 0)
     {
-        if (moveInput.x > 0 && !IsFacingRight)
+        float direction = moveInput.x < 0 ? -1f : 1f;
+
+        // Flip rootBone Y scale (since you're using bone rig)
+        if (rootBone != null)
         {
-            IsFacingRight = true;
+            Vector3 rootScale = rootBone.localScale;
+            rootScale.y = Mathf.Abs(rootScale.y) * direction;
+            rootBone.localScale = rootScale;
         }
-        else if (moveInput.x < 0 && IsFacingRight)
-        {
-            IsFacingRight = false;
-        }
+
+        _isFacingRight = moveInput.x > 0;
     }
+}
+
+public Transform torchWrapper;
+
+private void FlipTorchWrapper(float direction)
+{
+    if (torchWrapper == null) return;
+
+    Vector3 scale = torchWrapper.localScale;
+    scale.x = Mathf.Abs(scale.x) * (direction > 0 ? 1 : -1);
+    torchWrapper.localScale = scale;
+}
+
+
+
+
+
+
+
+
+
 
     public void onRun(InputAction.CallbackContext context)
     {
@@ -193,18 +186,22 @@ public class PlayerController : MonoBehaviour
     }
 
     public void OnHit(int damage, Vector2 knockback)
-    {   
+    {
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
     }
 
-
-        void OnCollisionEnter2D(Collision2D coll) {
-        if(coll.gameObject.tag == "elevator"){
+    void OnCollisionEnter2D(Collision2D coll)
+    {
+        if (coll.gameObject.tag == "elevator")
+        {
             transform.parent = coll.gameObject.transform;
         }
     }
-    void OnCollisionExit2D(Collision2D coll) {
-        if(coll.gameObject.tag == "elevator"){
+
+    void OnCollisionExit2D(Collision2D coll)
+    {
+        if (coll.gameObject.tag == "elevator")
+        {
             transform.parent = null;
         }
     }
