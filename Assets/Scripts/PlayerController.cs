@@ -112,16 +112,17 @@ private void SetFacingDirection(Vector2 moveInput)
         if (rootBone != null)
         {
             Vector3 scale = rootBone.localScale;
-
-            // Flip Y based on horizontal movement, due to bone orientation
             scale.y = Mathf.Abs(scale.y) * (moveInput.x < 0 ? -1 : 1);
-
             rootBone.localScale = scale;
+
+            // Reset unwanted rotation caused by flipping
+            rootBone.localRotation = Quaternion.identity;
         }
 
         _isFacingRight = moveInput.x > 0;
     }
 }
+
 
 
     public void onRun(InputAction.CallbackContext context)

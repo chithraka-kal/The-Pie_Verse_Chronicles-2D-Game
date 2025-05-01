@@ -540,8 +540,8 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.3
-        value: 1
+        time: 0.29151154
+        value: 0
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -561,7 +561,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Attack
+    path: bone_1/Attack
     classID: 60
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -671,7 +671,7 @@ AnimationClip:
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1080829965
+      path: 581350779
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 60
@@ -2384,8 +2384,8 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.3
-        value: 1
+        time: 0.29151154
+        value: 0
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -2405,7 +2405,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Attack
+    path: bone_1/Attack
     classID: 60
     script: {fileID: 0}
   m_EulerEditorCurves:
