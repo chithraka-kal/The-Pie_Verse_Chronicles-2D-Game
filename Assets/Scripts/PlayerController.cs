@@ -105,46 +105,23 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-// Add reference to attack transform
-
-public Transform torch;
-
 private void SetFacingDirection(Vector2 moveInput)
 {
     if (moveInput.x != 0)
     {
-        float direction = moveInput.x < 0 ? -1f : 1f;
-
-        // Flip rootBone Y scale (since you're using bone rig)
         if (rootBone != null)
         {
-            Vector3 rootScale = rootBone.localScale;
-            rootScale.y = Mathf.Abs(rootScale.y) * direction;
-            rootBone.localScale = rootScale;
+            Vector3 scale = rootBone.localScale;
+
+            // Flip Y based on horizontal movement, due to bone orientation
+            scale.y = Mathf.Abs(scale.y) * (moveInput.x < 0 ? -1 : 1);
+
+            rootBone.localScale = scale;
         }
 
         _isFacingRight = moveInput.x > 0;
     }
 }
-
-public Transform torchWrapper;
-
-private void FlipTorchWrapper(float direction)
-{
-    if (torchWrapper == null) return;
-
-    Vector3 scale = torchWrapper.localScale;
-    scale.x = Mathf.Abs(scale.x) * (direction > 0 ? 1 : -1);
-    torchWrapper.localScale = scale;
-}
-
-
-
-
-
-
-
-
 
 
     public void onRun(InputAction.CallbackContext context)
