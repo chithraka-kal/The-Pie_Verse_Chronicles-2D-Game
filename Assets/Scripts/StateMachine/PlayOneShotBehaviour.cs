@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayOneShotBehaviour : StateMachineBehaviour
 {
     public AudioClip soundToPlay;
-    public float volume = 1f;
+    public float volume = 10f;
     public bool playOnEnter = true, playOnExit = false, playAfterDelay = false;
 
     // Delayed sound timer

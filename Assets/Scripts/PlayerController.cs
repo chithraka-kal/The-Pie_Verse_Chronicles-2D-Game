@@ -114,9 +114,6 @@ private void SetFacingDirection(Vector2 moveInput)
             Vector3 scale = rootBone.localScale;
             scale.y = Mathf.Abs(scale.y) * (moveInput.x < 0 ? -1 : 1);
             rootBone.localScale = scale;
-
-            // Reset unwanted rotation caused by flipping
-            rootBone.localRotation = Quaternion.identity;
         }
 
         _isFacingRight = moveInput.x > 0;
