@@ -92,4 +92,13 @@ public class PlayerRespawn : MonoBehaviour
 
         Debug.Log("[GAME OVER] Game Over panel shown. Game paused.");
     }
+
+    public void SetRespawnPoint(Transform point)
+{
+    respawnPoint = point;
+    Debug.Log($"[RESPAWN POINT SET] New point: {point.name}");
+}
+
+
+    
 }
