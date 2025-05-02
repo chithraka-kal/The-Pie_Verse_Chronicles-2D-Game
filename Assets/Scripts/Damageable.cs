@@ -9,6 +9,10 @@ public class Damageable : MonoBehaviour
     public UnityEvent damageableDeath;
     public UnityEvent<int, int> healthChanged;
 
+    public System.Func<int, Vector2, bool> customHitLogic = null;
+
+
+
     Animator animator;
     [SerializeField]
     private int _maxHealth = 100;
@@ -109,24 +113,29 @@ public class Damageable : MonoBehaviour
     }
 
     // returns whether the damageable took or not
-    public bool Hit(int damage, Vector2 knockback)
+public bool Hit(int damage, Vector2 knockback)
+{
+    if (customHitLogic != null)
     {
-        if(IsAlive && !isInvincible)
-        {
-            Health -=damage;
-            isInvincible = true;
-
-            //Notify other subscribed components that the damageable was hit to handle the knockback and such
-            animator.SetTrigger(AnimationStrings.hitTrigger);
-            LockVelocity = true;
-            damageableHit?.Invoke(damage, knockback);
-            CharacterEvents.characterDamaged.Invoke(gameObject, damage);
-
-            return true;
-        }
-        //unable to be hit
-        return false;
+        return customHitLogic.Invoke(damage, knockback);
     }
+
+    if (IsAlive && !isInvincible)
+    {
+        Health -= damage;
+        isInvincible = true;
+
+        animator.SetTrigger(AnimationStrings.hitTrigger);
+        LockVelocity = true;
+        damageableHit?.Invoke(damage, knockback);
+        CharacterEvents.characterDamaged.Invoke(gameObject, damage);
+
+        return true;
+    }
+
+    return false;
+}
+
 
     //Returns whether the character was healed or not
     public bool Heal(int healthRestore)
