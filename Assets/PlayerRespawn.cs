@@ -1,20 +1,24 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class PlayerRespawn : MonoBehaviour
 {
     public Transform respawnPoint;
+    public GameObject gameOverPanel; // Assign in Inspector
+
     private Damageable damageable;
     private Animator animator;
 
     private int maxHeartHP = 100;
-
     public int totalHearts => damageable.MaxHealth / maxHeartHP;
 
     void Start()
     {
         damageable = GetComponent<Damageable>();
         animator = GetComponent<Animator>();
+
+        if (gameOverPanel != null)
+            gameOverPanel.SetActive(false);
 
         damageable.customHitLogic = CustomHitLogic;
     }
@@ -23,17 +27,19 @@ public class PlayerRespawn : MonoBehaviour
     {
         if (!damageable.IsAlive) return false;
 
-        int currentHealth = damageable.Health;
-        int newHealth = Mathf.Max(currentHealth - damage, 0);
+        int previousHealth = damageable.Health;
+        int newHealth = Mathf.Max(previousHealth - damage, 0);
 
-        int oldHeart = currentHealth / maxHeartHP;
-        int newHeart = newHealth / maxHeartHP;
+        // Correct heart calculation using ceiling to avoid premature loss
+        int previousHearts = Mathf.CeilToInt(previousHealth / (float)maxHeartHP);
+        int newHearts = Mathf.CeilToInt(newHealth / (float)maxHeartHP);
 
-        bool lostHeart = newHeart < oldHeart;
+        bool lostHeart = newHearts < previousHearts;
 
         damageable.Health = newHealth;
 
-        // Handle knockback + feedback
+        Debug.Log($"[HIT] Took {damage} damage. HP: {previousHealth} -> {newHealth} | Hearts: {previousHearts} -> {newHearts} | LostHeart: {lostHeart}");
+
         animator.SetTrigger(AnimationStrings.hitTrigger);
         damageable.LockVelocity = true;
         damageable.damageableHit?.Invoke(damage, knockback);
@@ -41,31 +47,49 @@ public class PlayerRespawn : MonoBehaviour
 
         if (lostHeart)
         {
-            if (damageable.Health > 0)
+            if (newHearts > 0)
             {
-                RespawnPlayer();
+                Debug.Log($"[HEART LOST] {newHearts} hearts remaining. Respawning...");
+                StartCoroutine(RespawnAfterDelay(1.5f));
             }
             else
             {
-                GameOver();
+                Debug.Log("[HEART LOST] 0 hearts remaining.");
+                StartCoroutine(TriggerGameOver());
             }
         }
 
         return true;
     }
 
-    private void RespawnPlayer()
+    private IEnumerator RespawnAfterDelay(float delay)
     {
+        yield return new WaitForSeconds(delay);
+
         transform.position = respawnPoint.position;
 
-        // Subtract 1 heart and restore remaining heart's HP
-        int remainingHearts = Mathf.Max((damageable.Health / maxHeartHP), 1);
+        int remainingHearts = Mathf.CeilToInt(damageable.Health / (float)maxHeartHP);
         damageable.Health = remainingHearts * maxHeartHP;
+
+        Debug.Log($"[RESPAWNED] Moved to checkpoint. HP reset to {damageable.Health}");
     }
 
-    private void GameOver()
+    private IEnumerator TriggerGameOver()
     {
-        Debug.Log("Game Over. Restarting...");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Debug.Log("[GAME OVER] No hearts left. Showing Game Over in 2 seconds...");
+        yield return new WaitForSeconds(2f);
+
+        GameOverUI ui = FindObjectOfType<GameOverUI>();
+        if (ui != null)
+        {
+            ui.ShowGameOver();
+        }
+        else if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true);
+            Time.timeScale = 0f;
+        }
+
+        Debug.Log("[GAME OVER] Game Over panel shown. Game paused.");
     }
 }
