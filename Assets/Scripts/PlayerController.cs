@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     public Light2D torchLight;
     public AudioSource torchAudioSource;
     public AudioClip toggleTorchSound;
-    private bool torchOn = false;
+    //private bool torchOn = false;
     Vector2 moveInput;
     TouchingDirections touchingDirections;
     Damageable damageable;
@@ -123,7 +123,6 @@ private void SetFacingDirection(Vector2 moveInput)
         }
 
         FlipTorchLight();
-        Debug.Log("Flipping torch light");
 
         _isFacingRight = moveInput.x > 0;
     }
