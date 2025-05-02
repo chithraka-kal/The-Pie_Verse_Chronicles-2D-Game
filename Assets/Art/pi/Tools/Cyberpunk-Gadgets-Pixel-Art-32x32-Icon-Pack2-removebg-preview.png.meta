@@ -1,0 +1,1259 @@
+fileFormatVersion: 2
+guid: 565b7c92ab6b9064fb4b92df21bf2c05
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 327
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243ff5febbc4cbd4ab46d1b48594d5fc
+      internalID: 1027380915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 327
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6ba2c9019fcd3468f287c659a5b00a
+      internalID: 1546306591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 326
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d057c42bb9460334db2f2c92d3de4dfa
+      internalID: 670703606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 331
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37de063c41fe84443b58dbafedb93639
+      internalID: -2005285990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 326
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d5d12c34c61de4fbbd26cde9482972
+      internalID: 588633846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 333
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbf4996eb0570d4fb64bef9f31fb029
+      internalID: 314541124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 333
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2887fa2429f9848805c166b4ac2ec2
+      internalID: 122424372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 326
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12674a1469878fc41b3ac0ceca7b798a
+      internalID: 1441455706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 326
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6979c84e20a68704795155c68d7f1558
+      internalID: -1976823193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 327
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56d9472bd7904e42ab98a1cf03a4ff6
+      internalID: 622184017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 270
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dde0c80a7ed9e4faf1f59a31b5eb08
+      internalID: -1658101851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 271
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ae165ce54c9c348a4a8b953e9c7313
+      internalID: 1907715230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 268
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea2bfa9f06749e489744cf397b47d4a
+      internalID: -162147979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 278
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c492ceefbf976a645a06cd8ab618d028
+      internalID: 1157606957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 273
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7deb1c0f3ff19ee4781068a90f0b5172
+      internalID: 751288131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 268
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9248dcb887b5992488c16de68a45aa16
+      internalID: 2017272869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 268
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb64f4852c633d54c8845dfc65eec9be
+      internalID: -698840405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 268
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173c8946e6906944c8e0d5f2d7dcbc2d
+      internalID: 900208898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 271
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f6a339d8700ec46a0dc0aa6ecfaeb1
+      internalID: -1925255798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 268
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda2e1a62fe9ad04ba45882cd1da179d
+      internalID: -1913520674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 210
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fe6fc8829cf404fa331c2148c583c7
+      internalID: -195699715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 214
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3940d800816bb4da87bf03f7251aae
+      internalID: 1186045718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 215
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d388bb4fd3a7bca48914cbb2866a1345
+      internalID: 725167412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 214
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a110b15669f4ce43b5fa13c1e17a4b8
+      internalID: -686861436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 210
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2d3bea07052c9478a0c56874a445d2
+      internalID: 265131889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 210
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f38d8e75d3e4140ae64bcdc1a026f2
+      internalID: 816520746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 215
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b9592f8c8e1ca42bf38ca0b2a0e822
+      internalID: 1384032410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 210
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773762091258c6444a78d374b94d9dec
+      internalID: 434957269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 211
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a165c25f225a6b419b69015d38a0c80
+      internalID: 2055117624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 210
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e453fc7f31800c4ab2935098a65a8c1
+      internalID: 1545312087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 154
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c2d513c7bdc9b4a89ba5e68e3694a5
+      internalID: 1629548220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 154
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b214080130ee93747a069bdac5fe2f4d
+      internalID: 1168685955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 153
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5f3be852c80ef469dcadf1daa5326f
+      internalID: -1371394450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 156
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3eae820805aac40babd574d228c37a
+      internalID: -1868584623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 154
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab264bb7d7cb15145932d80a02db08fb
+      internalID: -1406008066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 153
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ffc6431995bbc498cf4c348eefaa5d
+      internalID: 986079764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 153
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0b73cf91ed15b4d82dffb0c5ed6668
+      internalID: -2050756360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 159
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8555f38b5ac9de4290483d1ec6130b5
+      internalID: 1290312891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 153
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a6279d3c69f8d499aa0dcfb0608d84
+      internalID: -698139014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 154
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8699e636ef50043b43ebc45d0b2591
+      internalID: 2113818207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 23
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973cbd0b86917d747947fb4c5e5e6292
+      internalID: 1360662147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 22
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9b3b98ccec0be40b684e772594638b
+      internalID: 1882085514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 51
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71eb20bd5f1648a4b968cd9717ed2187
+      internalID: 2118843720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 22
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24a062fdcbb9c14f914bbb1fb6ffa11
+      internalID: -338484045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 21
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423620fe39f794d4e8192467b6d756ac
+      internalID: -38767494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 22
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b0d22ef9286b34faf374f1a4aef8e0
+      internalID: 2061432421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 25
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9ef899eca96c641b81aa8ba4bd4184
+      internalID: 973929327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 22
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a4ac362b21a6f409805dcb7750344b
+      internalID: 374450784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 38
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723736cb0074e694f87285f8f08ed683
+      internalID: 1142014847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 38
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9fe2c6dc0666742bb0901ed516a3a9
+      internalID: 215564963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_0: 1027380915
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_1: 1546306591
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_10: -1658101851
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_11: 1907715230
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_12: -162147979
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_13: 1157606957
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_14: 751288131
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_15: 2017272869
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_16: -698840405
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_17: 900208898
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_18: -1925255798
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_19: -1913520674
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_2: 670703606
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_20: -195699715
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_21: 1186045718
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_22: 725167412
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_23: -686861436
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_24: 265131889
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_25: 816520746
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_26: 1384032410
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_27: 434957269
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_28: 2055117624
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_29: 1545312087
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_3: -2005285990
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_30: 1629548220
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_31: 1168685955
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_32: -1371394450
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_33: -1868584623
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_34: -1406008066
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_35: 986079764
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_36: -2050756360
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_37: 1290312891
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_38: -698139014
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_39: 2113818207
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_4: 588633846
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_40: -1056915344
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_41: 715659056
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_42: -440014493
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_43: 252884176
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_44: 1871120827
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_45: 187006731
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_46: -304180227
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_47: 1185098923
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_48: 1360662147
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_49: -871561155
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_5: 314541124
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_50: 1882085514
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_51: 2118843720
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_52: -338484045
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_53: -38767494
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_54: 1345924649
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_55: 2061432421
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_56: 617876454
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_57: 973929327
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_58: -90784161
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_59: 374450784
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_6: 122424372
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_60: 1142014847
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_61: 215564963
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_7: 1441455706
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_8: -1976823193
+      Cyberpunk-Gadgets-Pixel-Art-32x32-Icon-Pack2-removebg-preview_9: 622184017
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

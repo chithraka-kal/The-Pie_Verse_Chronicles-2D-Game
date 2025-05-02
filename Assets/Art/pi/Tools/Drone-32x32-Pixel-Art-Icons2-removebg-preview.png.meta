@@ -1,0 +1,1219 @@
+fileFormatVersion: 2
+guid: aa79e37c2f5b99e40bf4f4dff6dbf238
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 331
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffd3b85b0d53d44f93615500bac602e
+      internalID: -1446776881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 331
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001f861c4e8e9634ba9def72b99bc0cb
+      internalID: 1799055656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 332
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55b8e7d2f7c6624c9101e914d87c9b7
+      internalID: 245095948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 337
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6df62487d47d24397fb719d911f0d2
+      internalID: 1223167929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 332
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011ad297ecc3f9247b2c844ac6308b6c
+      internalID: 1426074513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 335
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c33138af65cc642b7dffee0e43b505
+      internalID: 1880706879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 331
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb55c46f519ff247ad8911a18d3df2b
+      internalID: 129010808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 332
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dbcc818943cbf45a4cb33de23b86ec
+      internalID: -1639097497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 331
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea38301b96840e49ae893fba0d44f21
+      internalID: 1742936793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 335
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d5f7b885c01404195f7446a3eb9ebf
+      internalID: 278397989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 274
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7b26e675be82447b6df162dcbd1a05
+      internalID: -250463767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 297
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2255173d2d50446b70e9c1665074be
+      internalID: 1486351099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 273
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61250ddd4276c1c4d8a16349c65e0c00
+      internalID: 519588767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 281
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14acaf82bb4679646b70e0034432650a
+      internalID: 1881389548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 273
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643e06b5007336b478b92ede57a679cd
+      internalID: -496661752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 276
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df10b06703b42cc4cbcf20e4f592a324
+      internalID: 79433610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 278
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9355040777d3b2b49ba7f81a584dbf26
+      internalID: -1510083278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 276
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd958c453be67fb4fadcececd70fb1a1
+      internalID: -1889984844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 274
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c27b2b8fb363f04489ec05d1bafc36b
+      internalID: 321869776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 276
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3534733e6bbb54fb342dbfb5281b0b
+      internalID: -1894104794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 273
+        width: 49
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2a56ca4746f9744adbbf0ecbd843e8
+      internalID: 1575303679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 219
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d464cfac9309f154fa5d3f33c3d46a67
+      internalID: 970059023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 216
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ca92db5d8419547b9013e05e68a7cd
+      internalID: 1227778516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 219
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ea22cbc9ca801419422ab35ff0c667
+      internalID: -2086706645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 216
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c359b11ac6eb59144bd98542d990ccb8
+      internalID: -258642215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 215
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9e180b41a78064d9a6c26b39f121f2
+      internalID: 1339431408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 220
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a948dcc80cc452468bff10c90985f91
+      internalID: -388307649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 215
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d16d07ad5821f4fb9dee082e9b3eae
+      internalID: 233574668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 215
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b6dbbf3048983449809145a62166c1
+      internalID: -2113389042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 219
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bd9681a7f45c24fbc3822f708eb31e
+      internalID: 1808521690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 215
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a222a41672b01c4aace852d8a357775
+      internalID: -1788151432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 159
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddccbbb50c4f5249908d1a721657324
+      internalID: 1712166225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 157
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5856295068a40df4da43e714f26c90bc
+      internalID: 1720764049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 157
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e6d9db352f3984e98d3c24aa74ce25
+      internalID: -196563858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 157
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc8fed3fd7b59642bcdde7adbc82ebd
+      internalID: -139609013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 162
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe35ca25c3313e488c5d38e67bc99d2
+      internalID: 992325158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 159
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e66b4881a28ce4288846c3d6da3ef6
+      internalID: 1971938084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 159
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e343d09b8c4c824cac6a58351983df7
+      internalID: -396592137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 162
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a46ca0d01935d48884673837275760
+      internalID: -1964774558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 160
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66123d944fb5336439acf79dd42e171b
+      internalID: 1627779648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 157
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3cf6178e6984944b97a5139c4604f0
+      internalID: 724555109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 23
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637105f3946e5f147be23623017d4124
+      internalID: -2066890852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 23
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08082e8987274ed498e115e67a2a2c87
+      internalID: 479637242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 24
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceae807dd48537c4794283ff4d944582
+      internalID: -1656887754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 25
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b9a08e864f1464a9e5d560c39e7c62
+      internalID: -387491631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 29
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f333a30ba78a1d844a539e1261a92f98
+      internalID: -732168629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 29
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757ef9b6a94b0f146b2c2713cc01ab52
+      internalID: 207503683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-32x32-Pixel-Art-Icons2-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 38
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3669bbb9a85d404f9fe3393f4353136
+      internalID: 1895226063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_0: -1446776881
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_1: 1799055656
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_10: -250463767
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_11: 1486351099
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_12: 519588767
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_13: 1881389548
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_14: -496661752
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_15: 79433610
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_16: -1510083278
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_17: -1889984844
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_18: 321869776
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_19: -1894104794
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_2: 245095948
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_20: 1575303679
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_21: 970059023
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_22: 1227778516
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_23: -2086706645
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_24: -258642215
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_25: 1339431408
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_26: -388307649
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_27: 233574668
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_28: -2113389042
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_29: 1808521690
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_3: 1223167929
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_30: -1788151432
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_31: 1712166225
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_32: 1720764049
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_33: -196563858
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_34: -139609013
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_35: 992325158
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_36: 1971938084
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_37: -396592137
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_38: -1964774558
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_39: 1627779648
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_4: 1426074513
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_40: 724555109
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_41: -1218341883
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_42: 2051760209
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_43: -1435338181
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_44: 877646767
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_45: 876204245
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_46: -1846101764
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_47: 42636826
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_48: 1821786741
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_49: 1383847678
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_5: 1880706879
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_50: -2066890852
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_51: -806252527
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_52: 479637242
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_53: -1655184064
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_54: -1656887754
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_55: -387491631
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_56: -1681995636
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_57: 265522406
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_58: 2027817118
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_59: -732168629
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_6: 129010808
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_60: -606479537
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_61: 207503683
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_62: -1183784566
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_63: 1895226063
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_7: -1639097497
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_8: 1742936793
+      Drone-32x32-Pixel-Art-Icons2-removebg-preview_9: 278397989
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
