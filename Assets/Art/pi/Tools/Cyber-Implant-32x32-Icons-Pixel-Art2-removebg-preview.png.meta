@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 7eca093e942200e409763fd6c1e300fd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 236
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb479fac357ef3439be7bc48dbd2b4f
+      internalID: 803343202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 237
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525ae3f1927f0b54089255e1f8cd251d
+      internalID: 2146338695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 237
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9e8eeeedcc12d4494d4c7801eccfea
+      internalID: 1189318539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 244
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fed265f3ee74c40b8117fc9bb4f69f
+      internalID: -274590048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 237
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6df3570536ff724182ccbf712408f1e
+      internalID: -1970274346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 239
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bf5d8a75bb80c4cb74643d16bc4cfb
+      internalID: -1141463617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 244
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8575e0386ddd6c744bd50c2aaf585b54
+      internalID: 1751496704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 243
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a231fea8bd7a941861f64af63514f1
+      internalID: -1361195130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 237
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a2f5dd0ec7a2f479a6158229cfeab1
+      internalID: 223513769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 237
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b57672835cddaa42941ee3e2e5ec7dc
+      internalID: -339317154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 166
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bb8519d321a8241b269152261a4c5d
+      internalID: -335439727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 168
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dd7231196fcdc43ae4677536e3fb1d
+      internalID: -929941669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 168
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328977191b505254f94077f49b83d0c8
+      internalID: -1943200684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 166
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ce068b3a5d8f04584921d4d1380af5
+      internalID: -565873732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 166
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e38db339ae2b534eac3028c527be11c
+      internalID: 1291885562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 166
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98f75a600e133b40a87af0d93df47bc
+      internalID: -985984107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 166
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06d3d5b4f87c8043a0c76f8b2314ab9
+      internalID: -728653810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 166
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4875efd7e656648a9bbd74c0ccbe50
+      internalID: 727507867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 166
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a407487128eea14fa1a9f9f3b218245
+      internalID: 1688496649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 170
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3741392ed445f445bbb7494710f2212
+      internalID: -1746802846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 95
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5ac9761d3a380428b0e120a82957e5
+      internalID: 2099433858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 98
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25beb2b0afec5d45add1b4b41457805
+      internalID: -183468358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 95
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13037278e7b3e8a48a30ed590ac2e52a
+      internalID: -1748588189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 95
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99781a6e183332b4da6fb7f3a3c6364f
+      internalID: -644436417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 98
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4742d9db806324393a9362961da957
+      internalID: 912572299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 98
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2257a7a709b4d842a831d81d4f9b765
+      internalID: 531538932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 102
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4923af0cd4cc5a418116adc5a503c89
+      internalID: -1487574437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 95
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1115d807864384e8234a8d5281ab6c
+      internalID: -32348752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 100
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12126c162a8aec44fad686bb1c5f51a4
+      internalID: -769779011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 95
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc8805ef7b50844cbd2d989bf0ce69c
+      internalID: 540032977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 26
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d87e13a5eb29244acb7a85073645d6
+      internalID: -1211665277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 28
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8d31e269f230b4aa666bf87603a160
+      internalID: -1350304873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 32
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85241ec89db75ba4db26b146b176a5e6
+      internalID: 1739826123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 26
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed775ccf960f7548853115d72ae6bae
+      internalID: 1876894590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 26
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689f42a642c09654ab7c72870d5a9718
+      internalID: -1150964568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 30
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c46e61c9a53a604693df8199de1efe3
+      internalID: -1780726380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 30
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf7cf3fe11dc0547b3651e50a3cb29d
+      internalID: 1414131727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 26
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47d09aea36e2454598a562402cf8684
+      internalID: -341161328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 28
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b39faacb9d00ad47bdf4f7b3cb1a036
+      internalID: -1622681800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 26
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c6faffdd02ae34cb47c766ca84023c
+      internalID: 1063343990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_0: 803343202
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_1: 2146338695
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_10: -335439727
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_11: -929941669
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_12: -1943200684
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_13: -565873732
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_14: 1291885562
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_15: -985984107
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_16: -728653810
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_17: 727507867
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_18: 1688496649
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_19: -1746802846
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_2: 1189318539
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_20: 2099433858
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_21: -183468358
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_22: -1748588189
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_23: -644436417
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_24: 912572299
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_25: 531538932
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_26: -1487574437
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_27: -32348752
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_28: -769779011
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_29: 540032977
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_3: -274590048
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_30: -1211665277
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_31: -1350304873
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_32: 1739826123
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_33: 1876894590
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_34: -1150964568
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_35: -1780726380
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_36: 1414131727
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_37: -341161328
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_38: -1622681800
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_39: 1063343990
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_4: -1970274346
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_5: -1141463617
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_6: 1751496704
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_7: -1361195130
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_8: 223513769
+      Cyber-Implant-32x32-Icons-Pixel-Art2-removebg-preview_9: -339317154
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
