@@ -19,4 +19,18 @@ public class Checkpoint : MonoBehaviour
             }
         }
     }
+
+
+    public float floatingSpeed = 1f;
+    public float floatingHeight = 0.5f;
+    private Vector3 startPosition;
+    private void Start()
+    {
+        startPosition = transform.localPosition;
+    }
+    private void Update()
+    {
+        float yOffset = Mathf.Sin(Time.time * floatingSpeed) * floatingHeight;
+        transform.localPosition = startPosition + new Vector3(0, yOffset, 0);
+    }
 }
