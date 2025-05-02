@@ -25,6 +25,8 @@ public class Dialogue
 public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dialogue;
+    private bool hasTriggered = false;
+
  
     public void TriggerDialogue()
     {
@@ -33,9 +35,10 @@ public class DialogueTrigger : MonoBehaviour
  
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Player")
-        {
-            TriggerDialogue();
-        }
+        if (!hasTriggered && collision.CompareTag("Player"))
+    {
+        hasTriggered = true;
+        TriggerDialogue();
+    }
     }
 }
