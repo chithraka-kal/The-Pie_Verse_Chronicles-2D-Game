@@ -4,16 +4,15 @@ using UnityEngine.SceneManagement;
 public class GameOverUI : MonoBehaviour
 {
     public GameObject gameOverPanel;
+    public GameObject musicObject; // Drag your music GameObject here in Inspector
 
     private void Awake()
     {
-        Time.timeScale = 1f; // Ensure game is unpaused on scene load
-    }
+        Time.timeScale = 1f;
+        AudioListener.pause = false;
 
-    private void Start()
-    {
         if (gameOverPanel != null)
-            gameOverPanel.SetActive(false); // Start with panel off
+            gameOverPanel.SetActive(false);
         else
             Debug.LogWarning("GameOver panel is not assigned!");
     }
@@ -23,43 +22,47 @@ public class GameOverUI : MonoBehaviour
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(true);
-            Time.timeScale = 0f; // Pause the game
+            Time.timeScale = 0f;
+
+            if (musicObject != null)
+                musicObject.SetActive(false); // Stop music
+            else
+                Debug.LogWarning("Music object not assigned!");
+
+            Debug.Log("[GAME OVER] Game Over panel shown. Game paused.");
         }
     }
 
     public void Retry()
     {
-        Time.timeScale = 1f;
+        ResumeGameState();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void MainMenu()
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu"); // Ensure this scene is added in Build Settings
+        ResumeGameState();
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void QuitGame()
     {
-        Time.timeScale = 1f;
+        ResumeGameState();
         Application.Quit();
 
 #if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false; // Stop play mode in editor
+        UnityEditor.EditorApplication.isPlaying = false;
 #endif
     }
 
-    public void PauseGame()
-{
-    Time.timeScale = 0f;  // Pauses all in-game physics, animations, etc.
-    AudioListener.pause = true; // Optionally pause all audio
-    Debug.Log("Game Paused");
-}
+    private void ResumeGameState()
+    {
+        Time.timeScale = 1f;
+        AudioListener.pause = false;
 
-public void ResumeGame()
-{
-    Time.timeScale = 1f;  // Resumes game time
-    AudioListener.pause = false;
-}
+        if (musicObject != null)
+            musicObject.SetActive(true); // Resume music if reloading
 
+        Debug.Log("Game resumed. Music re-enabled.");
+    }
 }
