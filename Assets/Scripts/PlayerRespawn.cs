@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerRespawn : MonoBehaviour
 {
@@ -11,6 +13,7 @@ public class PlayerRespawn : MonoBehaviour
 
     private int maxHeartHP = 100;
     public int totalHearts => damageable.MaxHealth / maxHeartHP;
+
 
     void Start()
     {
@@ -76,22 +79,15 @@ public class PlayerRespawn : MonoBehaviour
 
     private IEnumerator TriggerGameOver()
     {
-        Debug.Log("[GAME OVER] No hearts left. Showing Game Over in 2 seconds...");
-        yield return new WaitForSeconds(2f);
+    yield return new WaitForSeconds(2f);
 
-        GameOverUI ui = FindObjectOfType<GameOverUI>();
-        if (ui != null)
-        {
-            ui.ShowGameOver();
-        }
-        else if (gameOverPanel != null)
-        {
-            gameOverPanel.SetActive(true);
-            Time.timeScale = 0f;
-        }
+    // Set a flag to show Game Over panel in Main Menu
+    PlayerPrefs.SetInt("ShowGameOver", 1);
+    PlayerPrefs.Save();
 
-        Debug.Log("[GAME OVER] Game Over panel shown. Game paused.");
-    }
+    // Load Main Menu scene
+    SceneManager.LoadScene("MainMenu");
+}
 
     public void SetRespawnPoint(Transform point)
 {
