@@ -24,8 +24,7 @@ public class GameOverUI : MonoBehaviour
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(true);
-            Time.timeScale = 0f;
-            sound.SetActive(false);  // Pause the game
+            Time.timeScale = 0f; // Pause the game
             Debug.Log("Game Over panel shown. Game paused.");
         }
     }
@@ -51,12 +50,11 @@ public class GameOverUI : MonoBehaviour
         UnityEditor.EditorApplication.isPlaying = false; // Stop play mode in editor
 #endif
     }
- public GameObject sound;
+
     public void PauseGame()
 {
     Time.timeScale = 0f;  // Pauses all in-game physics, animations, etc.
     AudioListener.pause = true;
-    sound.SetActive(false); // Optionally disable sound or mute audio
      // Optionally pause all audio
     Debug.Log("Game Paused");
 }
