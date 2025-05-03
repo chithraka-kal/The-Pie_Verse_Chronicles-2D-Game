@@ -35,7 +35,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Level 8.unity
     guid: ec7aec1878117df4e8030a492368d3a0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/QuitScene.unity
     guid: aa532c57eb6c1ec4cbb75e8e5d3c34b8
   m_configObjects:

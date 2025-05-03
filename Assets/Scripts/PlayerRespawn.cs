@@ -2,27 +2,34 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-
 public class PlayerRespawn : MonoBehaviour
 {
-    public Transform respawnPoint;
-    public GameObject gameOverPanel; // Assign in Inspector
+    public Transform respawnPoint;              // Checkpoint position
+    public GameObject gameOverPanel;            // Game Over UI Panel (not used here, set via PlayerPrefs)
 
-    private Damageable damageable;
-    private Animator animator;
+    private Damageable damageable;              // Reference to Damageable component
+    private Animator animator;                  // Reference to Animator
 
-    private int maxHeartHP = 100;
-    public int totalHearts => damageable.MaxHealth / maxHeartHP;
-
+    private int maxHeartHP = 100;               // Max HP per heart
+    public int totalHearts => damageable.MaxHealth / maxHeartHP; // Total heart containers
 
     void Start()
     {
         damageable = GetComponent<Damageable>();
         animator = GetComponent<Animator>();
 
+        // Ensure the game over panel is hidden at start
         if (gameOverPanel != null)
             gameOverPanel.SetActive(false);
 
+        // Fix for zero health at scene start
+        if (damageable.Health <= 0)
+        {
+            damageable.Health = totalHearts * maxHeartHP;
+            Debug.LogWarning("[PlayerRespawn] Health was 0 on start. Resetting to full.");
+        }
+
+        // Assign custom hit logic handler
         damageable.customHitLogic = CustomHitLogic;
     }
 
@@ -33,7 +40,6 @@ public class PlayerRespawn : MonoBehaviour
         int previousHealth = damageable.Health;
         int newHealth = Mathf.Max(previousHealth - damage, 0);
 
-        // Correct heart calculation using ceiling to avoid premature loss
         int previousHearts = Mathf.CeilToInt(previousHealth / (float)maxHeartHP);
         int newHearts = Mathf.CeilToInt(newHealth / (float)maxHeartHP);
 
@@ -79,22 +85,21 @@ public class PlayerRespawn : MonoBehaviour
 
     private IEnumerator TriggerGameOver()
     {
-    yield return new WaitForSeconds(2f);
+        Debug.Log("[PlayerRespawn] TriggerGameOver() CALLED!");
 
-    // Set a flag to show Game Over panel in Main Menu
-    PlayerPrefs.SetInt("ShowGameOver", 1);
-    PlayerPrefs.Save();
+        yield return new WaitForSeconds(2f);
 
-    // Load Main Menu scene
-    SceneManager.LoadScene("MainMenu");
-}
+        // Set flag and ensure it’s saved before loading scene
+        PlayerPrefs.SetInt("ShowGameOver", 1);
+        PlayerPrefs.Save();
+        yield return new WaitForEndOfFrame(); // Ensures flag is committed
+
+        SceneManager.LoadScene("MainMenu");
+    }
 
     public void SetRespawnPoint(Transform point)
-{
-    respawnPoint = point;
-    Debug.Log($"[RESPAWN POINT SET] New point: {point.name}");
-}
-
-
-    
+    {
+        respawnPoint = point;
+        Debug.Log($"[RESPAWN POINT SET] New point: {point.name}");
+    }
 }
