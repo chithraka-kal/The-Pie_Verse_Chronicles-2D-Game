@@ -165,7 +165,7 @@ MonoBehaviour:
   - {fileID: 2394985913857836335}
   m_Bounds:
     m_Center: {x: -341.72656, y: -78.95865, z: -0.0000023543835}
-    m_Extent: {x: 26.40004, y: 47.997604, z: 1.1368684e-13}
+    m_Extent: {x: 26.40004, y: 47.997482, z: 1.1368684e-13}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -307,7 +307,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 2394985912453637237}
   m_Bounds:
-    m_Center: {x: -371.4297, y: 151.43896, z: -0.0000023543835}
+    m_Center: {x: -371.42188, y: 151.43896, z: -0.0000023543835}
     m_Extent: {x: 72.900024, y: 83.400024, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -414,7 +414,7 @@ MonoBehaviour:
   - {fileID: 2394985913436480251}
   - {fileID: 2394985913925668874}
   m_Bounds:
-    m_Center: {x: -395.1433, y: -78.96107, z: -0.0000023543835}
+    m_Center: {x: -395.1433, y: -78.960945, z: -0.0000023543835}
     m_Extent: {x: 21.567902, y: 48.000008, z: 1.1368684e-13}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -553,7 +553,7 @@ MonoBehaviour:
   - {fileID: 2394985913864625615}
   m_Bounds:
     m_Center: {x: -414.3224, y: 15.539078, z: -0.0000023543835}
-    m_Extent: {x: 31.19429, y: 69.89989, z: 1.1368684e-13}
+    m_Extent: {x: 31.19429, y: 69.90001, z: 1.1368684e-13}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -844,8 +844,8 @@ MonoBehaviour:
   healthChanged:
     m_PersistentCalls:
       m_Calls: []
-  _maxHealth: 100
-  _health: 100
+  _maxHealth: 200
+  _health: 200
   _isAlive: 1
   isInvincible: 0
   invincibilityTime: 0.25
@@ -1368,7 +1368,7 @@ MonoBehaviour:
   - {fileID: 2394985913503039086}
   - {fileID: 2394985912453637237}
   m_Bounds:
-    m_Center: {x: -371.4241, y: 29.33899, z: -0.0000023543835}
+    m_Center: {x: -371.4241, y: 29.339111, z: -0.0000023543835}
     m_Extent: {x: 45.300903, y: 64.50001, z: 2.2737368e-13}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -1507,7 +1507,7 @@ MonoBehaviour:
   - {fileID: 2394985914184730380}
   - {fileID: 2394985913321039116}
   m_Bounds:
-    m_Center: {x: -325.52734, y: 15.523945, z: -0.0000023543835}
+    m_Center: {x: -325.51953, y: 15.524067, z: -0.0000023543835}
     m_Extent: {x: 24.003922, y: 61.44241, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
