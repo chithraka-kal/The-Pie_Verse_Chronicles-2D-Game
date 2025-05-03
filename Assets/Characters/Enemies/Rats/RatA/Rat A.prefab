@@ -201,7 +201,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _maxHealth: 100
-  _health: 100
+  _health: 60
   _isAlive: 1
   isInvincible: 0
   invincibilityTime: 0.25
@@ -222,7 +222,6 @@ MonoBehaviour:
   walkStopRate: 0.05
   attackZone: {fileID: 1804035854050471579}
   cliffDetectionZone: {fileID: 1804035854115765761}
-  _hasTarget: 0
 --- !u!70 &6106049530590816052
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -486,5 +485,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 899849e63b9011540b6a65a2681e7f4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 1
+  damageAmount: 10
   knockback: {x: 0.5, y: 0.5}
