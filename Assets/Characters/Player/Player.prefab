@@ -164,8 +164,8 @@ MonoBehaviour:
   - {fileID: 2394985912708306254}
   - {fileID: 2394985913857836335}
   m_Bounds:
-    m_Center: {x: -341.72656, y: -78.95877, z: -0.0000023543835}
-    m_Extent: {x: 26.40004, y: 47.99785, z: 1.1368684e-13}
+    m_Center: {x: -341.72656, y: -78.95865, z: -0.0000023543835}
+    m_Extent: {x: 26.40004, y: 47.997604, z: 1.1368684e-13}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -307,7 +307,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 2394985912453637237}
   m_Bounds:
-    m_Center: {x: -371.4297, y: 151.43848, z: -0.0000023543835}
+    m_Center: {x: -371.4297, y: 151.43896, z: -0.0000023543835}
     m_Extent: {x: 72.900024, y: 83.400024, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -414,8 +414,8 @@ MonoBehaviour:
   - {fileID: 2394985913436480251}
   - {fileID: 2394985913925668874}
   m_Bounds:
-    m_Center: {x: -395.1433, y: -78.96119, z: -0.0000023543835}
-    m_Extent: {x: 21.567902, y: 48.00025, z: 1.1368684e-13}
+    m_Center: {x: -395.1433, y: -78.96107, z: -0.0000023543835}
+    m_Extent: {x: 21.567902, y: 48.000008, z: 1.1368684e-13}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -552,8 +552,8 @@ MonoBehaviour:
   - {fileID: 2394985912384913534}
   - {fileID: 2394985913864625615}
   m_Bounds:
-    m_Center: {x: -414.3224, y: 15.5385895, z: -0.0000023543835}
-    m_Extent: {x: 31.19429, y: 69.89952, z: 1.1368684e-13}
+    m_Center: {x: -414.3224, y: 15.539078, z: -0.0000023543835}
+    m_Extent: {x: 31.19429, y: 69.89989, z: 1.1368684e-13}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -1029,6 +1029,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 6537a49a-23c7-426b-ba3e-18f071f9c826
     m_ActionName: Player/Torch[/Keyboard/t]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ffc0fabb-39f5-4693-b537-bda1366dc327
+    m_ActionName: UI/Pause[/Keyboard/q]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -1046,8 +1050,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63621a71058f8c841893c234c5f649f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rayCastOrigin: {fileID: 0}
-  playerFeet: {fileID: 0}
+  rayCastOrigin: {fileID: 2394985913480335454}
+  playerFeet: {fileID: 2394985912646355832}
   layerMask:
     serializedVersion: 2
     m_Bits: 0
@@ -1159,9 +1163,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050210ed883b27843b85bf5cffd46611, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalHearts: 1
-  maxHeartHP: 100
-  checkpoint: {fileID: 0}
+  respawnPoint: {fileID: 0}
+  gameOverPanel: {fileID: 0}
 --- !u!1 &2394985913503039087
 GameObject:
   m_ObjectHideFlags: 0
@@ -1365,8 +1368,8 @@ MonoBehaviour:
   - {fileID: 2394985913503039086}
   - {fileID: 2394985912453637237}
   m_Bounds:
-    m_Center: {x: -371.4241, y: 29.338867, z: -0.0000023543835}
-    m_Extent: {x: 45.300903, y: 64.49952, z: 2.2737368e-13}
+    m_Center: {x: -371.4241, y: 29.33899, z: -0.0000023543835}
+    m_Extent: {x: 45.300903, y: 64.50001, z: 2.2737368e-13}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -1504,8 +1507,8 @@ MonoBehaviour:
   - {fileID: 2394985914184730380}
   - {fileID: 2394985913321039116}
   m_Bounds:
-    m_Center: {x: -325.52734, y: 15.523579, z: -0.0000023543835}
-    m_Extent: {x: 24.003922, y: 61.44192, z: 0}
+    m_Center: {x: -325.52734, y: 15.523945, z: -0.0000023543835}
+    m_Extent: {x: 24.003922, y: 61.44241, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -1667,8 +1670,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 899849e63b9011540b6a65a2681e7f4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 10
-  knockback: {x: 0, y: 0}
+  damageAmount: 50
+  knockback: {x: 1, y: 1}
 --- !u!60 &1985252621704050262
 PolygonCollider2D:
   m_ObjectHideFlags: 0

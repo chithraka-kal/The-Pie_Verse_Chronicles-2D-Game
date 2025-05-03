@@ -4,17 +4,17 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections), typeof(Damageable))]
 public class Knight : MonoBehaviour
-{   
+{
     public float walkAcceleration = 3f;
     public float maxSpeed = 3f;
     public float walkStopRate = 0.05f;
     public DetectionZone attackZone;
     public DetectionZone cliffDetectionZone;
 
-    Rigidbody2D rb;
-    TouchingDirections touchingDirections;
-    Animator animator;
-    Damageable damageable;
+    private Rigidbody2D rb;
+    private TouchingDirections touchingDirections;
+    private Animator animator;
+    private Damageable damageable;
 
     public enum WalkableDirection { Right, Left }
 
@@ -23,55 +23,43 @@ public class Knight : MonoBehaviour
 
     public WalkableDirection WalkDirection
     {
-        get { return _walkDirection; }
-        set {
-                if(_walkDirection != value)
-                {
-                    //Direction flipped
-                    gameObject.transform.localScale = new Vector2(gameObject.transform.localScale.x * -1, gameObject.transform.localScale.y);
+        get => _walkDirection;
+        set
+        {
+            if (_walkDirection != value)
+            {
+                transform.localScale = new Vector2(
+                    transform.localScale.x * -1,
+                    transform.localScale.y
+                );
 
-                    if(value == WalkableDirection.Right)
-                    {
-                        walkDirectionVector = Vector2.right;
-                    } else if (value == WalkableDirection.Left)
-                        {
-                            walkDirectionVector = Vector2.left;
-                        }
-                }
-            _walkDirection = value;
+                walkDirectionVector = value == WalkableDirection.Right ? Vector2.right : Vector2.left;
             }
+            _walkDirection = value;
+        }
     }
 
-    public bool _hasTarget = false;
-
+    private bool _hasTarget = false;
     public bool HasTarget
     {
-        get { return _hasTarget; }
-        private set 
-        { 
-            _hasTarget = value;
-
-            animator.SetBool(AnimationStrings.hasTarget, value);
-        }
-    }
-
-    public bool CanMove
-    {
-        get
+        get => _hasTarget;
+        private set
         {
-           return animator.GetBool(AnimationStrings.canMove);
+            _hasTarget = value;
+            if (animator != null)
+                animator.SetBool(AnimationStrings.hasTarget, value);
         }
     }
+
+    public bool CanMove => animator != null && animator.GetBool(AnimationStrings.canMove);
 
     public float AttackCooldown
     {
-        get
-        {
-            return animator.GetFloat(AnimationStrings.attackCooldown);
-        }
+        get => animator != null ? animator.GetFloat(AnimationStrings.attackCooldown) : 0f;
         set
         {
-            animator.SetFloat(AnimationStrings.attackCooldown, Mathf.Max(value, 0));
+            if (animator != null)
+                animator.SetFloat(AnimationStrings.attackCooldown, Mathf.Max(value, 0));
         }
     }
 
@@ -81,13 +69,18 @@ public class Knight : MonoBehaviour
         touchingDirections = GetComponent<TouchingDirections>();
         animator = GetComponent<Animator>();
         damageable = GetComponent<Damageable>();
+
+        Debug.Log("Knight Awake: rb initialized = " + (rb != null));
+
+        // Safe event hookup
+        damageable.damageableHit.AddListener(OnHit);
     }
 
-    //Update is called once per frame
-    void Update()
+    private void Update()
     {
-        HasTarget = attackZone.detectedColliders.Count > 0;
-        if(AttackCooldown > 0)
+        HasTarget = attackZone != null && attackZone.detectedColliders.Count > 0;
+
+        if (AttackCooldown > 0)
         {
             AttackCooldown -= Time.deltaTime;
         }
@@ -95,47 +88,47 @@ public class Knight : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(touchingDirections.IsGrounded && touchingDirections.IsOnWall)
+        if (touchingDirections.IsGrounded && touchingDirections.IsOnWall)
         {
             FlipDirection();
         }
 
-        if(!damageable.LockVelocity)
+        if (!damageable.LockVelocity)
         {
-            if(CanMove && touchingDirections.IsGrounded)
+            if (CanMove && touchingDirections.IsGrounded)
             {
-                //accelerate towards max speed
-                rb.velocity = new Vector2(Mathf.Clamp(rb.velocity.x + (walkAcceleration * walkDirectionVector.x * Time.fixedDeltaTime), -maxSpeed, maxSpeed), rb.velocity.y);
+                rb.velocity = new Vector2(
+                    Mathf.Clamp(rb.velocity.x + (walkAcceleration * walkDirectionVector.x * Time.fixedDeltaTime),
+                                -maxSpeed, maxSpeed),
+                    rb.velocity.y
+                );
             }
             else
             {
                 rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, walkStopRate), rb.velocity.y);
-            }            
+            }
         }
     }
 
     private void FlipDirection()
     {
-        if(WalkDirection == WalkableDirection.Right)
-        {
-            WalkDirection = WalkableDirection.Left;
-        }else if(WalkDirection == WalkableDirection.Left)
-        {
-            WalkDirection = WalkableDirection.Right;
-        }else
-        {
-            Debug.LogError("Invalid walk direction");
-        }
+        WalkDirection = WalkDirection == WalkableDirection.Right ? WalkableDirection.Left : WalkableDirection.Right;
+    }
+public void OnHit(int damage, Vector2 knockback)
+{
+    if (rb == null)
+    {
+        Debug.LogWarning($"Knight.OnHit: Rigidbody 2D 'rb' is null on {gameObject.name}. Skipping knockback.");
+        return;
     }
 
-    public void OnHit(int damage, Vector2 knockback)
-    {
-        rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
-    }
+    rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
+}
+
 
     public void OnCliffDetected()
     {
-        if(touchingDirections.IsGrounded)
+        if (touchingDirections.IsGrounded)
         {
             FlipDirection();
         }

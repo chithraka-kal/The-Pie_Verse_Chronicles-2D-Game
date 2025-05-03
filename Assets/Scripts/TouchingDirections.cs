@@ -11,14 +11,17 @@ public class TouchingDirections : MonoBehaviour
 
     private CapsuleCollider2D touchingCol;
     private Animator animator;
+
     private PlayerController playerController;
+    private Knight knight;
 
     private RaycastHit2D[] groundHits = new RaycastHit2D[5];
     private RaycastHit2D[] wallHits = new RaycastHit2D[5];
     private RaycastHit2D[] ceilingHits = new RaycastHit2D[5];
 
-    [SerializeField]
-    private bool _isGrounded;
+    [SerializeField] private bool _isGrounded;
+    [SerializeField] private bool _isOnWall;
+    [SerializeField] private bool _isOnCeiling;
 
     public bool IsGrounded
     {
@@ -26,12 +29,9 @@ public class TouchingDirections : MonoBehaviour
         private set
         {
             _isGrounded = value;
-            animator.SetBool(AnimationStrings.isGrounded, value);
+            if (animator != null) animator.SetBool(AnimationStrings.isGrounded, value);
         }
     }
-
-    [SerializeField]
-    private bool _isOnWall;
 
     public bool IsOnWall
     {
@@ -39,12 +39,9 @@ public class TouchingDirections : MonoBehaviour
         private set
         {
             _isOnWall = value;
-            animator.SetBool(AnimationStrings.isOnWall, value);
+            if (animator != null) animator.SetBool(AnimationStrings.isOnWall, value);
         }
     }
-
-    [SerializeField]
-    private bool _isOnCeiling;
 
     public bool IsOnCeiling
     {
@@ -52,18 +49,36 @@ public class TouchingDirections : MonoBehaviour
         private set
         {
             _isOnCeiling = value;
-            animator.SetBool(AnimationStrings.isOnCeiling, value);
+            if (animator != null) animator.SetBool(AnimationStrings.isOnCeiling, value);
         }
     }
 
-    // Now uses PlayerController's facing direction
-    private Vector2 wallCheckDirection => playerController.IsFacingRight ? Vector2.right : Vector2.left;
+    private Vector2 wallCheckDirection
+    {
+        get
+        {
+            if (playerController != null)
+            {
+                return playerController.IsFacingRight ? Vector2.right : Vector2.left;
+            }
+            else if (knight != null)
+            {
+                return knight.WalkDirection == Knight.WalkableDirection.Right ? Vector2.right : Vector2.left;
+            }
+            else
+            {
+                Debug.LogWarning("TouchingDirections: No direction source found.");
+                return Vector2.right; // Default
+            }
+        }
+    }
 
     private void Awake()
     {
         touchingCol = GetComponent<CapsuleCollider2D>();
         animator = GetComponent<Animator>();
         playerController = GetComponent<PlayerController>();
+        knight = GetComponent<Knight>();
     }
 
     private void FixedUpdate()
