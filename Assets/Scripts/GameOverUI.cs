@@ -3,66 +3,74 @@ using UnityEngine.SceneManagement;
 
 public class GameOverUI : MonoBehaviour
 {
-    public GameObject gameOverPanel;
+    public GameObject pausePanel; // Assign in Inspector
+    // You can add other panels (like gameOverPanel) here if needed
 
     private void Awake()
     {
         Time.timeScale = 1f; // Ensure game is unpaused on scene load
+        AudioListener.pause = false;
+
+        if (pausePanel != null)
+            pausePanel.SetActive(false);
     }
 
-    private void Start()
+    private void Update()
     {
-        
-        if (gameOverPanel != null)
-            gameOverPanel.SetActive(false); // Start with panel off
-        else
-            Debug.LogWarning("GameOver panel is not assigned!");
-    }
-
-    public void ShowGameOver()
-    {
-        if (gameOverPanel != null)
+        if (Input.GetKeyDown(KeyCode.Q))
         {
-            gameOverPanel.SetActive(true);
-            Time.timeScale = 0f; // Pause the game
-            Debug.Log("Game Over panel shown. Game paused.");
+            Debug.Log("P key pressed. Toggling pause.");
+            if (Time.timeScale > 0)
+                PauseGame();
+            else
+                ResumeGame();
         }
+    }
+
+    public void PauseGame()
+    {
+        Time.timeScale = 0f;
+        AudioListener.pause = true;
+
+        if (pausePanel != null)
+            pausePanel.SetActive(true);
+
+        Debug.Log("Game Paused");
+    }
+
+    public void ResumeGame()
+    {
+        Time.timeScale = 1f;
+        AudioListener.pause = false;
+
+        if (pausePanel != null)
+            pausePanel.SetActive(false);
+
+        Debug.Log("Game Resumed");
     }
 
     public void Retry()
     {
         Time.timeScale = 1f;
+        AudioListener.pause = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void MainMenu()
     {
         Time.timeScale = 1f;
+        AudioListener.pause = false;
         SceneManager.LoadScene("MainMenu"); // Ensure this scene is added in Build Settings
     }
 
     public void QuitGame()
     {
         Time.timeScale = 1f;
+        AudioListener.pause = false;
         Application.Quit();
 
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false; // Stop play mode in editor
 #endif
     }
-
-    public void PauseGame()
-{
-    Time.timeScale = 0f;  // Pauses all in-game physics, animations, etc.
-    AudioListener.pause = true;
-     // Optionally pause all audio
-    Debug.Log("Game Paused");
-}
-
-public void ResumeGame()
-{
-    Time.timeScale = 1f;  // Resumes game time
-    AudioListener.pause = false;
-}
-
 }
