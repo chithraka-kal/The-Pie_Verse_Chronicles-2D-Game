@@ -35,7 +35,7 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         gameIsPaused = false;
-        soundObject.SetActive(true); 
+        soundObject.SetActive(true);
         //AudioListener.pause = false; // Resume the audio listener
     }
 
