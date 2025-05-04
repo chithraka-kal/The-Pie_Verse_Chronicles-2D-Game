@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -45,5 +46,12 @@ public class PauseMenu : MonoBehaviour
         gameIsPaused = true;
         soundObject.SetActive(false);
         //AudioListener.pause = true; // Pause the audio listener 
+    }
+
+        public void Retry()
+    {
+        Time.timeScale = 1f;
+        AudioListener.pause = false;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
