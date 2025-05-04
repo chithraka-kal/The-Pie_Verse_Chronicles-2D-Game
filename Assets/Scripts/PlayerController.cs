@@ -20,6 +20,13 @@ public class PlayerController : MonoBehaviour
     TouchingDirections touchingDirections;
     Damageable damageable;
 
+    void Start()
+{
+    if (torchLight != null)
+        torchLight.enabled = false;
+}
+
+
     public float CurrentMoveSpeed {
         get {
             if (CanMove) {
