@@ -164,8 +164,8 @@ MonoBehaviour:
   - {fileID: 2394985912708306254}
   - {fileID: 2394985913857836335}
   m_Bounds:
-    m_Center: {x: -341.72656, y: -78.95865, z: -0.0000023543835}
-    m_Extent: {x: 26.40004, y: 47.997482, z: 1.1368684e-13}
+    m_Center: {x: -322.95303, y: -67.53427, z: -0.0000023543835}
+    m_Extent: {x: 30.61734, y: 48.309074, z: 1.1368684e-13}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -307,8 +307,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 2394985912453637237}
   m_Bounds:
-    m_Center: {x: -371.42188, y: 151.43896, z: -0.0000023543835}
-    m_Extent: {x: 72.900024, y: 83.400024, z: 0}
+    m_Center: {x: -364.39688, y: 157.24167, z: -0.0000023543835}
+    m_Extent: {x: 74.45453, y: 82.687805, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -414,8 +414,8 @@ MonoBehaviour:
   - {fileID: 2394985913436480251}
   - {fileID: 2394985913925668874}
   m_Bounds:
-    m_Center: {x: -395.1433, y: -78.960945, z: -0.0000023543835}
-    m_Extent: {x: 21.567902, y: 48.000008, z: 1.1368684e-13}
+    m_Center: {x: -394.28314, y: -98.73692, z: -0.0000023543835}
+    m_Extent: {x: 25.90773, y: 50.8679, z: 1.1368684e-13}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -552,8 +552,8 @@ MonoBehaviour:
   - {fileID: 2394985912384913534}
   - {fileID: 2394985913864625615}
   m_Bounds:
-    m_Center: {x: -414.3224, y: 15.539078, z: -0.0000023543835}
-    m_Extent: {x: 31.19429, y: 69.90001, z: 1.1368684e-13}
+    m_Center: {x: -322.3041, y: 88.93544, z: -0.0000023543835}
+    m_Extent: {x: 70.30068, y: 41.76052, z: 1.1368684e-13}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -1010,10 +1010,6 @@ MonoBehaviour:
     m_ActionId: 9e792e2b-169f-4614-b881-e83706df5b35
     m_ActionName: UI/TrackedDeviceOrientation
   - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 53562409-059e-4ee0-82a7-820bcb660ae4
-    m_ActionName: UI/Escape[/Keyboard/escape]
-  - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6302788963631321243}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
@@ -1033,6 +1029,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: ffc0fabb-39f5-4693-b537-bda1366dc327
     m_ActionName: UI/Pause[/Keyboard/q]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: dc8167e0-05b2-49b6-8268-3e62e143b593
+    m_ActionName: Player/Pause[/Keyboard/escape]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -1368,8 +1368,8 @@ MonoBehaviour:
   - {fileID: 2394985913503039086}
   - {fileID: 2394985912453637237}
   m_Bounds:
-    m_Center: {x: -371.4241, y: 29.339111, z: -0.0000023543835}
-    m_Extent: {x: 45.300903, y: 64.50001, z: 2.2737368e-13}
+    m_Center: {x: -370.31992, y: 22.889336, z: -0.0000023543835}
+    m_Extent: {x: 46.17099, y: 76.39267, z: 2.2737368e-13}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -1507,8 +1507,8 @@ MonoBehaviour:
   - {fileID: 2394985914184730380}
   - {fileID: 2394985913321039116}
   m_Bounds:
-    m_Center: {x: -325.51953, y: 15.524067, z: -0.0000023543835}
-    m_Extent: {x: 24.003922, y: 61.44241, z: 0}
+    m_Center: {x: -337.7108, y: 25.204182, z: -0.0000023543835}
+    m_Extent: {x: 23.944733, y: 67.40613, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -1697,13 +1697,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.44940186, y: 0.23119926}
-      - {x: -0.7335205, y: 0.32994747}
+    - - {x: -0.13568117, y: 0.6723156}
+      - {x: -0.71881104, y: 0.38876438}
       - {x: -1.0991888, y: 0.14679316}
       - {x: -1.552887, y: -0.15352821}
       - {x: -1.1026778, y: -0.5974215}
-      - {x: -0.54069364, y: -0.58331466}
-      - {x: -0.3608637, y: 0.026889741}
+      - {x: -0.15351714, y: -0.66173625}
+      - {x: 0.24148566, y: -0.41377586}
+      - {x: 0.27136898, y: 0.28175634}
 --- !u!1 &8980487724684200426
 GameObject:
   m_ObjectHideFlags: 0
