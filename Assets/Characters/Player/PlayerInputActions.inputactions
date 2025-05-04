@@ -1,5 +1,5 @@
 {
-    "name": "PlayerinputActions",
+    "name": "PlayerInputActions",
     "maps": [
         {
             "name": "Player",
@@ -63,6 +63,15 @@
                     "name": "Torch",
                     "type": "Button",
                     "id": "6537a49a-23c7-426b-ba3e-18f071f9c826",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "dc8167e0-05b2-49b6-8268-3e62e143b593",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -333,6 +342,17 @@
                     "action": "Torch",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2db63788-d133-4fbc-9d0d-112278891f20",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -426,15 +446,6 @@
                     "type": "PassThrough",
                     "id": "9e792e2b-169f-4614-b881-e83706df5b35",
                     "expectedControlType": "Quaternion",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Escape",
-                    "type": "Button",
-                    "id": "53562409-059e-4ee0-82a7-820bcb660ae4",
-                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -870,20 +881,9 @@
                 },
                 {
                     "name": "",
-                    "id": "71d49fe1-78d0-4892-8a6b-355c77d844a0",
-                    "path": "<Keyboard>/escape",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "Escape",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "5346bc57-dd15-4d8f-8ada-db6948750ea3",
-                    "path": "<Keyboard>/q",
-                    "interactions": "",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Pause",
