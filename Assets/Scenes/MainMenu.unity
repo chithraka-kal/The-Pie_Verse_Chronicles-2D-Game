@@ -198,6 +198,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 60300263}
   m_CullTransparentMesh: 1
+--- !u!1 &89326439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 89326440}
+  - component: {fileID: 89326442}
+  - component: {fileID: 89326441}
+  m_Layer: 5
+  m_Name: ClickMe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &89326440
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89326439}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 230993650}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 13.4747925, y: 83.56676}
+  m_SizeDelta: {x: 139.7021, y: 92.1998}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &89326441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89326439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b8d1f4f478d483142a5aade860f138d5, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &89326442
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89326439}
+  m_CullTransparentMesh: 1
 --- !u!1 &95674080
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,7 +646,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 89326440}
   m_Father: {fileID: 1341438742}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1054,8 +1131,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21.949207, y: -2.9183}
-  m_SizeDelta: {x: 1658.8823, y: 575.8347}
+  m_AnchoredPosition: {x: 21.949207, y: -1.5301}
+  m_SizeDelta: {x: 1658.8823, y: 573.0582}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &328755743
 MonoBehaviour:
@@ -1477,7 +1554,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405684319}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1487,8 +1564,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035, y: 0.0007}
-  m_SizeDelta: {x: 0, y: 2060.1016}
+  m_AnchoredPosition: {x: 0.0009922262, y: 0.0009470316}
+  m_SizeDelta: {x: 0, y: 2164}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &405684321
 MonoBehaviour:
@@ -1520,17 +1597,18 @@ MonoBehaviour:
     with:</color></b>\r\n\t\u2022 Unity <i>(because I like pain)</i><br>\r\n\t\u2022
     C# <i>(my fingers\u2019 least favorite language)</i><br>\r\n\t\u2022 Free assets
     + my creative panic<br>\r\n\t\u2022 Freesound.org <i>(for all those splat and
-    oof sounds)</i><br>\r\n\t\u2022 An unhealthy amount of Shantae inspiration\r\n\r\n\n<b><color=#FFD700>Special
-    Thanks:</color></b>\r\n\t\u2022 Every free asset creator ever. I owe you cookies.<br>\r\n\t\u2022
-    Maniya and the Ses Team for the chaos.<br>\r\n\t\u2022 My inner child who thinks
-    meme lore should be taken seriously.<br>\r\n\t\u2022 Anyone who clicked <b>Play</b>
-    without asking too many questions.\r\n\r\n\r\n<b><color=#FFD700>Future Stuff?</color></b> 
+    oof sounds)</i><br>\r\n\t\u2022 An unhealthy amount of Shantae inspiration\r<br>\n\r\t\u2022
+    Intro theam song: Nisal Sooriyaarachchi\n\n\n<b><color=#FFD700>Special Thanks:</color></b>\r\n\t\u2022
+    Every free asset creator ever. I owe you cookies.<br>\r\n\t\u2022 Maniya and
+    the Ses Team for the chaos.<br>\r\n\t\u2022 My inner child who thinks meme lore
+    should be taken seriously.<br>\r\n\t\u2022 Anyone who clicked <b>Play</b> without
+    asking too many questions.\r\n\r\n\r\n<b><color=#FFD700>Future Stuff?</color></b> 
     \r\n<indent=5%>If this demo makes you laugh, panic, or wonder what\u2019s wrong
     with me - great!  \r\nMore levels are planned: temples, alien secrets, cringe
     TikTokers, and a showdown with the Tip-Top Virus.  \r\nIt\u2019ll be weird. You\u2019ve
     been warned.</indent>\r\n\r\n\r\n<b><color=#FFD700>Follow / Contact:</color></b> 
-    \r\n<indent=5%>FaceBook -Chithraka Kalanamith\nGitHub - chithraka-kal\nitch.io\r
-    - \n</indent>\r\n\n\n"
+    \r\n<indent=5%>FaceBook -Chithraka Kalanamith\nGitHub - chithraka-kal\nitch.io    
+    \r          - https://chithraka.itch.io/</indent>\r\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2425,6 +2503,7 @@ GameObject:
   - component: {fileID: 753234973}
   - component: {fileID: 753234976}
   - component: {fileID: 753234975}
+  - component: {fileID: 753234977}
   m_Layer: 5
   m_Name: Title Image (1)
   m_TagString: Untagged
@@ -2490,6 +2569,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753234972}
   m_CullTransparentMesh: 1
+--- !u!95 &753234977
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753234972}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c026aec8880c2544cadae3237ed37736, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &790861342
 GameObject:
   m_ObjectHideFlags: 0
@@ -2837,8 +2937,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1456827694}
   m_HandleRect: {fileID: 1456827693}
   m_Direction: 2
-  m_Value: 0.9999995
-  m_Size: 0.27951762
+  m_Value: 0.9999994
+  m_Size: 0.26481435
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5002,8 +5102,8 @@ RectTransform:
   m_Father: {fileID: 221214159}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.72048205}
-  m_AnchorMax: {x: 1, y: 0.99999964}
+  m_AnchorMin: {x: 0, y: 0.7351852}
+  m_AnchorMax: {x: 1, y: 0.9999995}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
