@@ -98,9 +98,12 @@ else
         }
     }
  
+ public static event System.Action OnDialogueEnded;
     void EndDialogue()
     {
         isDialogueActive = false;
         animator.Play("hide");
+
+        OnDialogueEnded?.Invoke();
     }
 }
