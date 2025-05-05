@@ -586,7 +586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundToPlay: {fileID: 8300000, guid: 4c992c0ee99f663418843827d69d4482, type: 3}
-  volume: 100
+  volume: 10
   playOnEnter: 1
   playOnExit: 0
   playAfterDelay: 0
@@ -1205,7 +1205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundToPlay: {fileID: 8300000, guid: 09e58a9f62aaf194c8ca83636af9d890, type: 3}
-  volume: 100
+  volume: 30
   playOnEnter: 1
   playOnExit: 0
   playAfterDelay: 0
@@ -1391,7 +1391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundToPlay: {fileID: 8300000, guid: a4f08156c8fb2424db003945eaef459e, type: 3}
-  volume: 100
+  volume: 10
   playOnEnter: 1
   playOnExit: 0
   playAfterDelay: 0
