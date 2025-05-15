@@ -325,7 +325,6 @@ MonoBehaviour:
   walkStopRate: 0.05
   attackZone: {fileID: 3522534201468760812}
   cliffDetectionZone: {fileID: 5946029971155567635}
-  _hasTarget: 0
 --- !u!1 &2667375980297173941
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,7 +413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 899849e63b9011540b6a65a2681e7f4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 30
+  damageAmount: 20
   knockback: {x: 2, y: 2}
 --- !u!1 &7228956520785277641
 GameObject:
