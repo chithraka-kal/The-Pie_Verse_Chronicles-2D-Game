@@ -41,7 +41,7 @@ Welcome to **The Pie Verse Chronicles** – a 2D platformer adventure crafted wi
 
 ## 🎬 Demo
 
-Check out the [demo here](https://example.com/demo).
+Check out the [demo here]((https://chithraka.itch.io/the-pie-verse-chronicles-2d)).
 
 ---
 
