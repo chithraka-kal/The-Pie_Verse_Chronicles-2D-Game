@@ -35,7 +35,7 @@ Welcome to **The Pie Verse Chronicles** – a 2D platformer adventure crafted wi
 
 ## 🖼️ Screenshots
 
-![Gameplay Screenshot](https://example.com/screenshot.png)
+![Gameplay Screenshot]([https://example.com/screenshot.png](https://img.youtube.com/vi/uAFHNmAwFhE/hqdefault.jpg))
 
 ---
 
